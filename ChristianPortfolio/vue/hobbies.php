@@ -40,8 +40,8 @@
 <div class="w3-quarter">
   <img src="./images/cinema.png" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
   <h3>Cinéma</h3>
-  <p><a href="https://myanimelist.net/" target="_blank">Animé - Manga</a></p>
-  <p><a href="http://www.allocine.fr/" target="_blank">Films</a></p>
+  <p><a href="./vue/anime.php" target="_blank">Animé - Manga</a></p>
+  <p><a href="./vue/films.php" target="_blank">Films</a></p>
 </div>
 
 </div>
