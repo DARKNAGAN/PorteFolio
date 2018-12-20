@@ -1,7 +1,6 @@
-<!-- Container (Accueil Section) -->
 <div id="accueil" class="container text-center">
-  <h4>PORTFOLIO</h4>
-  <h3>Christian CUNAT BRULÉ</h3>
-  <img src="./images/ReseauS.jpg" class="img-circle" alt="" width="370" height="420">
-  <p style="color:black"></br> Ce Portfolio a pour but de me présenter ainsi que faire découvrir mes connaissances et passion.</p>
+  <br><br><h4>PORTFOLIO <br> Christian CUNAT BRULÉ </h4>
+  <p style="color:black">Ce Portfolio a pour but de me présenter ainsi que faire découvrir mes connaissances et passion.
+  Durant mon BTS, j’ai pu travailler dans l’informatique en m’occupant de développements d’Interfaces Homme-Machine dans un progiciel de gestion intégré. 
+Aujourd'hui en Licence. Cela m’a permis de m’intéresser aux problématiques métiers et fonctionnelles.</p>
 </div>

@@ -1,231 +1,193 @@
-
-<!-- Container (Entreprises - G4 Section) -->
-<div id="pro" class="container">
-  <h3 class="">PROJETS PROFESSIONNEL</h3><br>
-  
- <!-- Premier Photo Grid-->
-  <div class="w3-row-padding">
-    <div onclick="openTab('b1');" class="w3-third w3-container w3-margin-bottom">
-      <img src="./images/VDI.jpg" alt="Norway" style="width:100%"  class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Installation de Réseau Voix,Données,Images</b></p>
-      </div>
-    </div>
-    <div onclick="openTab('b2');" class="w3-third w3-container w3-margin-bottom">
-      <img src="./images/WEB.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Développement de site web (Client léger)</b></p>
-      </div>
-    </div>
-    <div onclick="openTab('b3');" class="w3-third w3-container">
-      <img src="./images/ClientLourd.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Développement de logiciel PC (Client lourd)</b></p>
-      </div>
-    </div>
-  </div>
-  
-				<!-- The expanding grid (hidden by default) -->
-		<div id="b1" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-		  <!-- If you want the ability to close the container, add a close button -->
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2>Electricité</h2>
-			<div class="w3-container w3-white">
-				<p><b>Installation de Réseau Voix,Données,Images</b></p>
-				<p>Praesent tincidunt</p>
-			</div>
-		</div>
-				  <!-- The expanding grid (hidden by default) -->
-		<div id="b2" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-		  <!-- If you want the ability to close the container, add a close button -->
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2>Developpement Informatique</h2>
-			<div class="w3-container w3-white">
-				<p><b>Développement de site web (Client léger)</b></p>
-				<p>Praesent tincidunt</p>
-			</div>
-		</div>
-				  <!-- The expanding grid (hidden by default) -->
-		<div id="b3" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-		  <!-- If you want the ability to close the container, add a close button -->
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2>Developpement Informatique</h2>
-			<div class="w3-container w3-white">
-				<p><b>Développement de logiciel PC (Client lourd)</b></p>
-				<p>Praesent tincidunt</p>
-			</div>
-		</div>
-		
-		
-  <!-- Deuxieme Photo Grid-->
-  <div class="w3-row-padding">
-    <div onclick="openTab('b4');" class="w3-third w3-container w3-margin-bottom">
-      <img src="./images/PPF.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Développement logiciel dans un outil de gestion de portefeuille de projets</b></p>
-      </div>
-    </div>
-    <div onclick="openTab('b5');" class="w3-third w3-container w3-margin-bottom">
-      <img src="./images/Reporting.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Développement de rapports personnalisés dans un service de reporting</b></p>
-      </div>
-    </div>
-    <div onclick="openTab('b6');" class="w3-third w3-container">
-      <img src="./images/Froid.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Installation, maintenance et dépannage de systèmes de climatisation</b></p>
-      </div>
-    </div>
-  </div>
-  
-  
-					<!-- The expanding grid (hidden by default) -->
-			<div id="b4" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-			  <!-- If you want the ability to close the container, add a close button -->
-				<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-				<h2>Developpement Informatique</h2>
-				<div class="w3-container w3-white">
-					<p><b>Développement logiciel dans un outil de gestion de portefeuille de projets</b></p>
-					<p>Praesent tincidunt</p>
+<div id="projet" class="container-fluid bg-1">
+	<center><h3>PROJETS</h3></center><br>
+	<div class="container-fluid">
+		<div class="row" id="accordion">
+			<div class="col-6 col-sm-6">
+				<h4>Projets Professionnel</h4>
+				<div class="col-3 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="media">
+						<img class="mr-3" src="./images/projet/VDI.jpg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Installation de Réseau Voix,Données,Images</h5>
+								    <div class="card-header" id="headingProOne">
+									  <h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapseProOne" aria-expanded="true" aria-controls="collapseProOne">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapseProOne" class="collapse" aria-labelledby="headingProOne" data-parent="#accordion">
+									  <div class="card-body">
+										Installation de Réseau Voix,Données,Images.
+									  </div>
+									</div>								
+							</div>
+						</li>
+						<li class="media my-4">
+						<img class="mr-3" src="./images/projet/WEB.jpg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Développement de site web (Client léger)</h5>
+								<div class="card-header" id="headingProTwo">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapseProTwo" aria-expanded="true" aria-controls="collapseProTwo">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapseProTwo" class="collapse" aria-labelledby="headingProTwo" data-parent="#accordion">
+									  <div class="card-body">
+										Développement de site web (Client léger).
+									  </div>
+									</div>									
+							</div>
+						</li>
+						<li class="media">
+							<img class="mr-3" src="./images/projet/ClientLourd.jpg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Développement de logiciel PC (Client lourd)</h5>
+								<div class="card-header" id="headingProThree">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapseProThree" aria-expanded="true" aria-controls="collapseProThree">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapseProThree" class="collapse" aria-labelledby="headingProThree" data-parent="#accordion">
+									  <div class="card-body">
+										Développement de logiciel PC (Client lourd).
+									  </div>
+									</div>								
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-3 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="media">
+							<img class="mr-3" src="./images/projet/PPF.jpg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Développement logiciel dans un outil de gestion de portefeuille de projets</h5>
+								<div class="card-header" id="headingProFour">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapseProFour" aria-expanded="true" aria-controls="collapseProFour">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapseProFour" class="collapse" aria-labelledby="headingProFour" data-parent="#accordion">
+									  <div class="card-body">
+										Développement logiciel dans un outil de gestion de portefeuille de projets.
+									  </div>
+									</div>									
+							</div>
+						</li>
+						<li class="media my-4">
+							<img class="mr-3" src="./images/projet/Reporting.jpg" style="width:100%;" alt="Generic placeholder image">
+								<div class="media-body">
+									<h5 class="mt-0 mb-1">Développement de rapports personnalisés dans un service de reporting</h5>
+									<div class="card-header" id="headingProFive">
+									<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapseProFive" aria-expanded="true" aria-controls="collapseProFive">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapseProFive" class="collapse" aria-labelledby="headingProFive" data-parent="#accordion">
+									  <div class="card-body">
+										Développement de rapports personnalisés dans un service de reporting.
+									  </div>
+									</div>									
+								</div>
+						</li>
+						<li class="media">
+						<img class="mr-3" src="./images/projet/Froid.jpg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Installation, maintenance et dépannage de systèmes de climatisation</h5>
+								<div class="card-header" id="headingProSix">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapseProSix" aria-expanded="true" aria-controls="collapseProSix">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapseProSix" class="collapse" aria-labelledby="headingProSix" data-parent="#accordion">
+									  <div class="card-body">
+										Installation, maintenance et dépannage de systèmes de climatisation.
+									  </div>
+									</div>								
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
-					  <!-- The expanding grid (hidden by default) -->
-			<div id="b5" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-			  <!-- If you want the ability to close the container, add a close button -->
-				<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-				<h2>Communication de données (Reporting)</h2>
-				<div class="w3-container w3-white">
-					<p><b>Développement de rapports personnalisés dans un service de reporting</b></p>
-					<p>Praesent tincidunt</p>
+			<div class="col-6 col-sm-6">
+				<h4>Projets Personnel</h4>
+				<div class="col-3 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="media my-4">
+							<img class="mr-3" src="./images/projet/rasp_appareil.jpeg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Raspberry</h5>
+								<div class="card-header" id="headingPersoOne">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapsePersoOne" aria-expanded="true" aria-controls="collapsePersoOne">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapsePersoOne" class="collapse" aria-labelledby="headingPersoOne" data-parent="#accordion">
+									  <div class="card-body">
+										Cras sis odiate fringilla. Donec lacinia congue felis in faucibus.
+									  </div>
+									</div>									
+							</div>
+						</li>
+						<li class="media my-4">
+							<img class="mr-3" src="./images/projet/competences.jpg" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Adobe : Création graphique</h5>
+								<div class="card-header" id="headingPersoTwo">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapsePersoTwo" aria-expanded="true" aria-controls="collapsePersoTwo">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapsePersoTwo" class="collapse" aria-labelledby="headingPersoTwo" data-parent="#accordion">
+									  <div class="card-body">
+										Cras sis odiate fringilla. Donec lacinia congue felis in faucibus.
+									  </div>
+									</div>									
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-3 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="media">
+							<img class="mr-3" src="./images/projet/Projet.png" style="width:100%;" alt="Generic placeholder image">
+							<div class="media-body">
+								<h5 class="mt-0 mb-1">Résolution d'un PorteFolio</h5>
+								<div class="card-header" id="headingPersoThree">
+								<h4 class="mb-0">
+										<a data-toggle="collapse" data-target="#collapsePersoThree" aria-expanded="true" aria-controls="collapsePersoThree">
+										  <span class="glyphicon glyphicon-chevron-down"></span>
+										</a>
+									  </h4>
+									</div>
+									<div id="collapsePersoThree" class="collapse" aria-labelledby="headingPersoThree" data-parent="#accordion">
+									  <div class="card-body">
+										in inia congue felis in faucibus.
+									  </div>									  
+									</div>									
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
-					  <!-- The expanding grid (hidden by default) -->
-			<div id="b6" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-			  <!-- If you want the ability to close the container, add a close button -->
-				<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-				<h2>Frigorifique</h2>
-				<div class="w3-container w3-white">
-					<p><b>Installation, maintenance et dépannage de systèmes de climatisation</b></p>
-					<p>Praesent tincidunt</p>
-				</div>
-			</div>
-		
-		
-  <!-- Troizième Photo Grid-->
-  <div class="w3-row-padding">
-    <div onclick="openTab('b7');" class="w3-third w3-container w3-margin-bottom">
-      <img src="./images/competences.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b></b></p>
-      </div>
-    </div>
-    <div onclick="openTab('b8');" class="w3-third w3-container w3-margin-bottom">
-      <img src="./images/competences.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b></b></p>
-      </div>
-    </div>
-    <div onclick="openTab('b9');" class="w3-third w3-container">
-      <img src="./images/competences.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b></b></p>
-      </div>
-    </div>
-  </div>
-
-  
-  				<!-- The expanding grid (hidden by default) -->
-		<div id="b7" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-		  <!-- If you want the ability to close the container, add a close button -->
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2></h2>
-			<div class="w3-container w3-white">
-				<p><b></b></p>
-				<p></p>
-			</div>
 		</div>
-				  <!-- The expanding grid (hidden by default) -->
-		<div id="b8" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-		  <!-- If you want the ability to close the container, add a close button -->
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2></h2>
-			<div class="w3-container w3-white">
-				<p><b></b></p>
-				<p></p>
-			</div>
-		</div>
-				  <!-- The expanding grid (hidden by default) -->
-		<div id="b9" class="containerTab w3-container" style="display:none;margin-bottom:15px">
-		  <!-- If you want the ability to close the container, add a close button -->
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2></h2>
-			<div class="w3-container w3-white">
-				<p><b></b></p>
-				<p></p>
-			</div>
-		</div>
-		
-		
-  <!-- Pagination 
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div>
--->
+	</div>
 </div>
 
-<!-- Container (Missions - ENTREPRISE Section) -->
-<div id="perso" class="bg-1">
-  <div class="container">
-    <h3 class="">PROJETS PERSONNEL</h3><br>
-  <br><table class="table table-condensed" style="">
-		<thead style="color:white;">
-		  <tr>
-			<th>Projet</th>
-			<th>Description</th>
-			<th>Lien</th>
-		  </tr>
-		</thead>
-		<tbody>
-		  <tr>
-			<td style="color:white;">Raspberry Pi : électroniques</td>
-			<td>Prise en charge, de la réalisation à la mise en produnçus avec SQL Server ReportnBuilder.<br><br></td>
-			<td><a href="./documents/#" target="_blank"><span class="glyphicon glyphicon-save" style="font-size:16px; color:white;">Télécharger</span></a></td>
-		  </tr>
-		  <tr>
-			<td style="color:white;">Raspberry Pi : Robotique</td>
-			<td>Prise en charge du besoin d'un client au Reporting Services.<br><br></td>
-			<td><a href="./documents/#" target="_blank"><span class="glyphicon glyphicon-save" style="font-size:16px; color:white;">Télécharger</span></a></td>
-		  </tr>
-		  <tr>
-			<td style="color:white;">Raspberry Pi : Traceur GPS</td>
-			<td>Prise en charge du besoin d'un client d'interfacsqu'au déploiement chez le client.<br><br></td>
-			<td><a href="./documents/#" target="_blank"><span class="glyphicon glyphicon-save" style="font-size:16px; color:white;">Télécharger</span></a></td>
-		  </tr>
-		  <tr>
-			<td style="color:white;">Raspberry Pi : Tableau de bord automobile</td>
-			<td>Gestion des incidents des clients (correction de bug définis par le client.<br><br></td>
-			<td><a href="./documents/#" target="_blank"><span class="glyphicon glyphicon-save" style="font-size:16px; color:white;">Télécharger</span></a></td>
-		  </tr>
-		  <tr>
-			<td style="color:white;">Adobe : Création graphique</td>
-			<td>Prise en charge du besoin d'un client d'interfacsqu'au déploiement chez le client.<br><br></td>
-			<td><a href="./documents/#" target="_blank"><span class="glyphicon glyphicon-save" style="font-size:16px; color:white;">Télécharger</span></a></td>
-		  </tr>
-		  <tr>
-			<td style="color:white;">Résolution d'un PorteFolio</td>
-			<td>Gestion des incidents des clients (correction de bug définis par le client.<br><br></td>
-			<td><a href="./documents/#" target="_blank"><span class="glyphicon glyphicon-save" style="font-size:16px; color:white;">Télécharger</span></a></td>
-		  </tr>
-		</tbody>
-	  </table>
-   </div>
-</div>
 

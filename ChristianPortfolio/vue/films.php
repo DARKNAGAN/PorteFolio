@@ -8,10 +8,7 @@
 	</head>
 	<body>
 	<style>
-		.bg-1 {
-				background: #2d2d30;
-				color: #bdbdbd;
-				}
+		.bg-1 {	background: #2d2d30; color: #bdbdbd; }
 	</style>
 		<div class="bg-1">
 			<div id="pro" class="container">

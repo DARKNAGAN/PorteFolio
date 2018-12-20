@@ -7,6 +7,7 @@ function ajaxGet(url, callback) {
         if (req.status >= 200 && req.status < 400) {
             // Appelle la fonction callback en lui passant la réponse de la requête
             callback(req.responseText);
+			console.error(req.status + " " + req.statusText + " " + url);
         } else {
             console.error(req.status + " " + req.statusText + " " + url);
         }
