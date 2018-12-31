@@ -5,11 +5,9 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/animelist/completed", function 
 	{
 		// Transforme la réponse en un tableau d'articles
 		var animes = JSON.parse(reponse);
-		console.log(animes);
 		animes.anime.sort((a,b) => (a.score< b.score) ? 1 : ((b.score< a.score) ? -1 : 0)); 
 		animes.anime.forEach(function (results) 
-		{		console.log(animes);
-			//console.log(results.title);
+		{
 			// Ajout du titre et du contenu de chaque article				
 				var divElt = document.createElement("div");
 				divElt.className = "col-2";		
@@ -52,7 +50,6 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/mangalist/completed", function 
 		mangas.manga.sort((a,b) => (a.score< b.score) ? 1 : ((b.score< a.score) ? -1 : 0)); 
 		mangas.manga.forEach(function (results) 
 		{
-			//console.log(results.title);
 			// Ajout du titre et du contenu de chaque article
 			var divElt = document.createElement("div");
 			divElt.className = "col-3";	
@@ -65,18 +62,21 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/mangalist/completed", function 
 			var contenuElt = document.createElement("div");
 			contenuElt.className = "card-body";	
 			
-			var titleElt = document.createElement("h3");
+			var centerElt = document.createElement("center");
+			
+			var titleElt = document.createElement("h5");
 			titleElt.className = "card-title";	
-			titleElt.textContent = results.type + " | " + results.title;
 			
-			var descElt = document.createElement("p");		
 			var lienElt = document.createElement("a");
+			lienElt.href = results.url;	
+			lienElt.target = "_blank";	
+			lienElt.textContent = results.title;
 			
-			descElt.className = "card-text";	
 			mangasElt.appendChild(divElt);
 			divElt.appendChild(imageElt);
 			divElt.appendChild(contenuElt);
-			contenuElt.appendChild(titleElt);
-			contenuElt.appendChild(descElt);
+			contenuElt.appendChild(centerElt);
+			centerElt.appendChild(titleElt);
+			titleElt.appendChild(lienElt);
 		});
 	});

@@ -8,7 +8,6 @@ ajaxGet("https://api.themoviedb.org/3/account/{account_id}/rated/movies?api_key=
 		movies.results.sort((a,b) => (a.rating< b.rating) ? 1 : ((b.rating< a.rating) ? -1 : 0)); 
 		movies.results.forEach(function (results) 
 		{
-			console.log(results.original_title);
 				// Ajout du titre et du contenu de chaque article
 				var divElt = document.createElement("div");
 				divElt.className = "col-2";	
@@ -16,7 +15,6 @@ ajaxGet("https://api.themoviedb.org/3/account/{account_id}/rated/movies?api_key=
 				var imageElt = document.createElement("img");	
 				imageElt.className = "card-img";	
 				imageElt.src = "https://image.tmdb.org/t/p/w150_and_h225_bestv2/" +results.poster_path;	
-				imageElt.alt ="Aucun Aperçu";
 				
 				var contenuElt = document.createElement("div");
 				contenuElt.className = "card-body";	
@@ -44,7 +42,6 @@ ajaxGet("https://api.themoviedb.org/3/account/{account_id}/rated/tv?api_key=1fe1
 		tv.results.sort((a,b) => (a.rating< b.rating) ? 1 : ((b.rating< a.rating) ? -1 : 0)); 
 		tv.results.forEach(function (results) 
 		{
-			console.log(results.original_name);
 			// Ajout du titre et du contenu de chaque article
 			var divElt = document.createElement("div");
 			divElt.className = "col-2";	
@@ -53,7 +50,6 @@ ajaxGet("https://api.themoviedb.org/3/account/{account_id}/rated/tv?api_key=1fe1
 			var imageElt = document.createElement("img");	
 			imageElt.className = "card-img";	
 			imageElt.src = "https://image.tmdb.org/t/p/w150_and_h225_bestv2" +results.poster_path;	
-			imageElt.alt ="Aucun Aperçu";
 			
 			var contenuElt = document.createElement("div");
 			contenuElt.className = "card-body";	

@@ -1,39 +1,38 @@
-<div id="hoobie" class="container">
-	<center><h3>HOOBIES</h3></center><br>
-		<div class="w3-container w3-padding-64 w3-center" id="team">
-			<div class="w3-row"><br>
-				<div class="w3-quarter">
-					<img src="./images/hobbie/sport.jpg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
-					<h3>Sport</h3>
-					<p>Equitation Galop 3</p>
-					<p>Course à pied</p>
-				</div>
-				<div class="w3-quarter">
-					<img src="./images/hobbie/high-tech.jpg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
-					<h3>High-Tech</h3>
-					<p>Electronique</p>
-					<p>Informatique</p>
-					<p>Actualité numérique</p>
-				</div>
-				<div class="w3-quarter">
-					<img src="./images/hobbie/asso.jpg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
-					<h3>Association</h3>
-					<p><a href="https://www.facebook.com/BD3AFDME/" target="_blank">BD3A</a></p>
-				</div>
-				<div class="w3-row"><br>
-					<div class="w3-quarter">
-						<img src="./images/hobbie/piano.jpg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
-						<h3><a href="./vue/musique.php" target="_blank">Musique</a></h3>
-						<p>Rock</p>
-						<p>Piano en Autodidacte</p>
+		<div id="hoobie" class="container-fluid text-center">
+			<br><br><h3>HOOBIES</h3><br>
+				<div class="w3-container w3-center" id="team">
+					<div class="w3-row"><br>
+						<div class="w3-quarter">
+							<img src="./images/hobbie/sport.jpg" alt="sport" style="width:40%" class="w3-circle"><h3>Sport</h3>
+							<h5>Equitation Galop 4</h5>
+							<h5>Salle de sport</h5>
+							<h5>Course à pied</h5>
+						</div>
+						<div class="w3-quarter">
+							<img src="./images/hobbie/high-tech.jpg" alt="technologie" style="width:40%" class="w3-circle"><h3>High-Tech</h3>
+							<h5>Actualité numérique</h5>
+							<h5>Electronique</h5>
+							<h5>Informatique</h5>
+							<h5>Audiophile</h5>
+						</div>
+						<div class="w3-quarter">
+							<img src="./images/hobbie/culture.png" alt="culture" style="width:40%" class="w3-circle"><h3>Culture</h3>
+							<h5>Piano en Autodidacte</h5>
+						</div>
+						<div class="w3-quarter">
+							<img src="./images/hobbie/asso.jpg" alt="association" style="width:40%" class="w3-circle"><h3>Association</h3>
+							<h5><a href="https://www.facebook.com/BD3AFDME/" target="_blank">BD3A</a></h5>
+						</div>
 					</div>
-					<div class="w3-quarter">
-						<img src="./images/hobbie/cinema.png" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
-						<h3>Cinéma</h3>
-						<p><a href="./vue/anime.php" target="_blank">Animé - Manga</a></p>
-						<p><a href="./vue/films.php" target="_blank">Films</a></p>
+					<div class="w3-row"><br>						
+						<div class="w3-quarter">
+							<img src="./images/hobbie/multimedia.png" alt="multimedia" style="width:40%" class="w3-circle">
+							<h3>Multimédia</h3>
+							<h5><a href="./vue/anime.php" target="_blank">Animé - Light novel</a></h5>	
+							<h5><a href="./vue/films.php" target="_blank">Films</a></h5>		
+							<h5><a href="https://steamcommunity.com/id/darknagan/games/?tab=all" target="_blank">Jeux</a></h5>
+							<h5><a href="./vue/musique.php" target="_blank">Musique</a></h5>	
+						</div>
 					</div>
-				</div>
-			</div>
+				</div><br><br>
 		</div>
-</div>

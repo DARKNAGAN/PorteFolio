@@ -9,6 +9,23 @@
 	<body>
 	<style>
 		.bg-1 {	background: #2d2d30; color: #bdbdbd; }
+			.mo-info-name {
+			font-size: 14px;
+			line-height: 20px;
+			letter-spacing: .015em;
+			font-weight: var(--glue-font-weight-bold);
+			color: #fff;
+			text-transform: none;
+			}
+		.media-object { position: relative; padding-bottom: 2.5em; }
+		.mo-info {
+			margin: 12px 0 4px;
+			width: 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			text-align: center;
+			display: block;
+			}
 	</style>
 		<div class="bg-1">  
 			<div id="pro" class="container">
@@ -23,9 +40,13 @@
 					<div id="user-profile">
 						<script id="musiquesElt" type="text/x-handlebars-template">
 						{{#each artists.items}}
-							<div class="col-2">
-								<img class="card-img" src="{{images.0.url}}" height="160" alt="Aucun Aperçu">
-								<center><div class="card-body"><h5><a href="{{external_urls.spotify}}" target="_blank">{{name}}</a></h5></div></center>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+								<div class="media-object" style="max-width: 300px;">
+									<img class="card-img" src="{{images.0.url}}" style="height: 160px; width: 100%; border-radius: 50%;">
+									<div class="mo-info">
+										<a class="mo-info-name" title="{{name}}" href="{{external_urls.spotify}}" target="_blank">{{name}}</a>
+									</div>
+								</div>
 							</div>
 						{{/each}}
 						</script>

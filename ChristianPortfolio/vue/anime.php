@@ -12,9 +12,9 @@
 	</style>
 		<div class="bg-1">  
 			<div id="pro" class="container">
-				<center><h1>Animé visionné</h1></center><br>
+				<center><h1>Série et film d'animation visionné</h1></center><br>
 					<div id="animelist" class="row"></div><hr>
-				<center><h1>Light Novel lu</h1></center><br>
+				<center><h1>Light novel lu</h1></center><br>
 					<div id="mangalist" class="row"></div><hr>
 			</div>
 		</div>
