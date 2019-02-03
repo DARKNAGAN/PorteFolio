@@ -19,7 +19,7 @@
 						<img src="./images/service/DEVELOPPER.png" alt="Formation informatique" style="font-size:100px; width:200px;">
 						<ul style="list-style-type:none">
 							<li>Formation informatique</li><br>
-							<li>Réalisation de site web</li>
+							<li>Réalisation de sites web</li>
 							<li>Développement applicatif</li>
 							<li>Installation réseaux</li>
 						</ul>

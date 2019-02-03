@@ -3,13 +3,13 @@
 			<div class="container-fluid">
 				<center><div class="row" id="accordion">
 					<div class="col-6 col-sm-6">
-						<h4>Projets Professionnel</h4>
+						<h4>Projets Professionnels</h4>
 						<div class="col-3 col-sm-6">
 							<ul class="list-unstyled">
 								<li class="media">
 									<img class="mr-3" src="./images/projet/VDI.jpg" alt="VDI Systeme" style="width:100%;">
 									<div class="media-body">
-										<h5 class="mt-0 mb-1">Réalisation et dépannage d'installation de Réseau Voix, Données, Images</h5>
+										<h5 class="mt-0 mb-1">Réalisation et dépannage d'installations de Réseaux Voix, Données, Images</h5>
 										<div class="card-header" id="headingProOne">
 											<h4 class="mb-0">
 												<a data-toggle="collapse" data-target="#collapseProOne" aria-expanded="true" aria-controls="collapseProOne">
@@ -19,19 +19,19 @@
 										</div>
 										<div id="collapseProOne" class="collapse" aria-labelledby="headingProOne" data-parent="#accordion">
 										    <div class="card-body">
-												- Installation et intégration de câble FTP courant faible selon un plan de câblage et un schéma électrique.<br>
-												- Transmissions des informations aux service concerné pour la configurations des équipement de télécommunications.<br>
-												- Réalisation d'essais fonctionnel sur les équipements de télécommunications.<br>
+												- Installation et intégration de câbles FTP courant faible selon un plan de câblage et un schéma électrique.<br>
+												- Transmissions des informations aux services concernés pour la configurations des équipement de télécommunications.<br>
+												- Réalisation d'essais fonctionnelle sur les équipements de télécommunications.<br>
 												- Architecture d'un réseau téléphonique commuté.<br>
 												- Organisation d'une baie de brassage.<br>
-												- Utilisation d'appareil de mesure  électrique (multimètre, IntelliTone Pro 200, Fluke Networks CableIQ).<br>
-												- Utilisation de soudeuse a fibre optique (Distrame T-71C).<br>
-												- Réalisation et pose de chemin de câble et de conduit électrique en apparent et encastré.<br>
+												- Utilisation d'appareils de mesure  électrique (multimètre, IntelliTone Pro 200, Fluke Networks CableIQ).<br>
+												- Utilisation de soudeuse à fibre optique (Distrame T-71C).<br>
+												- Réalisation et pose de chemins de câble et de conduits électriques en apparent et encastré.<br>
 												- Installation, câblage, contrôle et mise sous tension d'une installation électrique.<br>
 												- Réalisation d'intervention avec habilitation électrique.<br>
-												- Utilisation d'engin nécessitant une habilitation(Echafaudage roulant, Nacelle électrique).<br>
+												- Utilisation d'engins nécessitant une habilitation(Echafaudage roulant, Nacelle électrique).<br>
 												- Réalisation d'armoires électriques et de supports d'armoires.<br>
-												- Réalisation de petit ouvrage de maçonnerie.<br>
+												- Réalisation de petits ouvrages de maçonnerie.<br>
 												- Diagnostiquer, changer et réparer un élément ou ensemble défectueux.
 										    </div>
 										</div>								
@@ -40,7 +40,7 @@
 								<li class="media my-4">
 									<img class="mr-3" src="./images/projet/WEB.png" alt="Developpement Web" style="width:100%;">
 									<div class="media-body">
-										<h5 class="mt-0 mb-1">Développement de site web Full-Stack<br>Vitrine - Blogs - Web-apps</h5>
+										<h5 class="mt-0 mb-1">Développement de sites web Full-Stack<br>Vitrines - Blogs - Web-apps</h5>
 										<div class="card-header" id="headingProTwo">
 											<h4 class="mb-0">
 												<a data-toggle="collapse" data-target="#collapseProTwo" aria-expanded="true" aria-controls="collapseProTwo">
@@ -61,7 +61,7 @@
 								<li class="media my-4">
 									<img class="mr-3" src="./images/projet/SYTELINE.jpg" alt="Infor Syteline" style="width:100%;">
 									<div class="media-body">
-										<h5 class="mt-0 mb-1">Développement de module spécifique dans un progiciel Infor ERP Syteline et utilisation de l'outil SSRS</h5>
+										<h5 class="mt-0 mb-1">Développement de modules spécifiques dans un progiciel Infor ERP Syteline et utilisation de l'outil SSRS</h5>
 										<div class="card-header" id="headingProFive">
 											<h4 class="mb-0">
 												<a data-toggle="collapse" data-target="#collapseProFive" aria-expanded="true" aria-controls="collapseProFive">
@@ -72,11 +72,11 @@
 										<div id="collapseProFive" class="collapse" aria-labelledby="headingProFive" data-parent="#accordion">
 											<div class="card-body">
 												- Prototypage en collaboration avec l'expert fonctionnel.<br>
-												- Définition des écart entre le besoin et le standard de l'ERP.<br>
+												- Définition des écarts entre le besoin et le standard de l'ERP.<br>
 												- Analyse organique des besoins en interfaces avec les produits environnants dans le système d'information de l'entreprise.<br>
 												- Elaboration de jeux d'essais (tests unitaires et d'intégration).<br>
 												- Tests des développements internes et des solutions fournies par l'éditeur.<br>
-												- Identifications et traitement des disfonctionnement constatés aux tests.<br>
+												- Identification et traitement des dysfonctionnements constatés aux tests.<br>
 												- Réalisation de documentation Français/Anglais.<br>
 												- Développement avec interface graphique et VB.net.<br>
 												- Développement de rapports personnalisés dans SSRS 2008.
@@ -99,7 +99,7 @@
 											<div class="card-body">
 												Création d'application Android / iOS / Windows.<br>
 												- Développement Java d'un client lourd.<br>
-												- Développement de petite application et logiciel en langage C++, Python, Swift, VB.
+												- Développement de petites applications et logiciels en langage C++, Python, Swift, VB.
 											</div>
 										</div>								
 									</div>
@@ -111,7 +111,7 @@
 								<li class="media">
 									<img class="mr-3" src="./images/projet/PROJET.png" alt="Portefeuille projet" style="width:100%;">
 									<div class="media-body">
-										<h5 class="mt-0 mb-1">Développement logiciel dans un outil de gestion de portefeuille de projets</h5>
+										<h5 class="mt-0 mb-1">Développement logiciel dans un outil de gestion de portefeuilles de projets</h5>
 										<div class="card-header" id="headingProFour">
 											<h4 class="mb-0">
 												<a data-toggle="collapse" data-target="#collapseProFour" aria-expanded="true" aria-controls="collapseProFour">
@@ -121,10 +121,10 @@
 										</div>
 										<div id="collapseProFour" class="collapse" aria-labelledby="headingProFour" data-parent="#accordion">
 											<div class="card-body">
-												- Collecte d'expression de besoin utilisateur.<br>
-												- Réalisation de cahier des charges.<br>
+												- Collecte d'expression de besoins utilisateurs.<br>
+												- Réalisation de cahiers des charges.<br>
 												- Réalisation des études préalables et fonctionnelles.<br>
-												- Développement dans Microsoft SharePoint 2013 d'un site de gestion de projet.<br>
+												- Développement dans Microsoft SharePoint 2013 d'un site de gestion de projets.<br>
 												- Réalisation de flux de travail dans SharePoint Designer 2013.<br>
 												- Développement de macro et fonctionnalités dans les outils Microsoft Excel et PowerPoint 2013.<br>
 												- Réalisation de documentation utilisateur et technique.
@@ -153,7 +153,7 @@
 								<li class="media">
 									<img class="mr-3" src="./images/projet/OFFSET.jpg" alt="Imprimante offset" style="width:100%;">
 									<div class="media-body">
-										<h5 class="mt-0 mb-1">Entretien de ligne d'impression offset, emballage, empaquetage</h5>
+										<h5 class="mt-0 mb-1">Entretien de lignes d'impression offset, emballage, empaquetage</h5>
 										<div class="card-header" id="headingProSix">
 											<h4 class="mb-0">
 												<a data-toggle="collapse" data-target="#collapseProSix" aria-expanded="true" aria-controls="collapseProSix">
@@ -172,7 +172,7 @@
 						</div>
 					</div>
 					<div class="col-6 col-sm-6">
-						<h4>Projets Personnel</h4>
+						<h4>Projets Personnels</h4>
 						<div class="col-3 col-sm-6">
 							<ul class="list-unstyled">
 								<li class="media my-4">
@@ -206,11 +206,11 @@
 										</div>
 										<div id="collapsePersoTwo" class="collapse" aria-labelledby="headingPersoTwo" data-parent="#accordion">
 											<div class="card-body">
-												- Réalisation de logo pour site Web avec Photoshop.<br>
-												- Réalisation de retouche photo avec Adobe Photoshop.<br>
-												- Réalisation d'image de fond avec Illustrator.<br>								
-												- Réalisation de site web avec Dreamweaver.<br>
-												- Réalisation de montage vidéo avec Première Pro.
+												- Réalisation de logos pour site Web avec Photoshop.<br>
+												- Réalisation de retouches d'images avec Adobe Photoshop.<br>
+												- Réalisation d'images de fond avec Illustrator.<br>								
+												- Réalisation de sites web avec Dreamweaver.<br>
+												- Réalisation de montages vidéo avec Première Pro.
 											</div>
 										</div>									
 									</div>
