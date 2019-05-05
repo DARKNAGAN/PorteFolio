@@ -3,7 +3,7 @@
 			<h2>Informatique - Electrique - Audio</h2><br>
 			<div class="row">
 				<div class="col p-5">
-					<div class="card container bg-white text-dark"><br>
+					<div class="card bg-white text-dark"><br>
 						<h2>DECOUVRIR</h2><br>
 						<div><img id="imgPresta" src="./images/service/DECOUVRIR.png" alt="Formation d'initiation"></div>
 						<ul class="list-unstyled">
@@ -15,7 +15,7 @@
 					</div>
 				</div>
 				<div class="col p-5">
-					<div class="card container bg-white text-dark"><br>
+					<div class="card bg-white text-dark"><br>
 						<h2>DEVELOPPER</h2><br>
 						<div><img id="imgPresta" src="./images/service/DEVELOPPER.png" alt="Formation informatique"></div>
 						<ul class="list-unstyled">
@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="col p-5">
-					<div class="card container bg-white text-dark"><br>
+					<div class="card bg-white text-dark"><br>
 						<h2>DEPANNER</h2><br>
 						<div><img id="imgPresta" src="./images/service/DEPANNER.png" alt="Depannage informatique"></div>
 						<ul class="list-unstyled">

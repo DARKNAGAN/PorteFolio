@@ -1,5 +1,5 @@
-		<div id="cv" class="container-fluid">
-			<br><br><h1 class="w3-center"> Développeur et administrateur réseaux informatique</h1><br>
+		<div id="cv" class="container-fluid py-5">
+			<h1 class="w3-center"> Développeur et administrateur réseaux informatique</h1><br>
 			<h2 class="w3-center">Cherche contrat d'apprentissage de deux ans niveau ingénieur informatique</h2>
 			<div class="w3-content w3-margin-top" style="max-width:1400px;"><!-- Page Container -->
 				<div class="w3-row-padding"><!-- The Grid -->
@@ -167,6 +167,6 @@
 						</div>
 					</div><!-- End Bottom Column -->
 				</div><!-- End Grid -->
-			</div><br><br><!-- End Page Container -->
+			</div><!-- End Page Container -->
 		<!--<span class="glyphicon glyphicon-save text-center" style="font-size:20px; color:white;">Télécharger</span>-->
 		</div>

@@ -19,21 +19,18 @@ html,body,h1,h2,h3,h4,h5,h6,p {
 #imgProjet {
 	width:100%;
 	}
-	.list-group{
+.list-group{
 	height:295px; 
 	}
-	.up-arrow{
+.up-arrow{
 	font-size:30px;
-}
+	}
 /*CV*/
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-column-gap: 10px;
 	text-align: center;
-	}
-.container {
-	padding: 80px 120px;
 	}
 .checked {
 	color: orange;

@@ -1,5 +1,5 @@
-		<div class="container-fluid bg-dark text-light text-center">
-			<br><a class="up-arrow" href="#accueil" data-toggle="tooltip" title="HAUT DU SITE"><span class="fa fa-toggle-up"></span></a><br><br>
+		<div class="container-fluid bg-dark text-light text-center py-4">
+			<a class="up-arrow" href="#accueil" data-toggle="tooltip" title="HAUT DU SITE"><span class="fa fa-toggle-up"></span></a>
 		</div>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

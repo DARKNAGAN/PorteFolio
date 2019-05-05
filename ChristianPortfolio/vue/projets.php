@@ -1,5 +1,5 @@
-		<div id="projet" class="container-fluid bg-dark text-light">
-		<br><br><h1 class="text-center">PROJETS</h1><br>
+		<div id="projet" class="container-fluid bg-dark text-light py-5">
+		<h1 class="text-center">PROJETS</h1><br>
 			<div class="row">
 				<div class="col-6 col-sm-3 p-4">
 				<!--Aperçue du projet-->
@@ -248,6 +248,6 @@
 					</div>
 				</div>
 				</div>
-			</div><br>
+			</div>
 		</div>
 

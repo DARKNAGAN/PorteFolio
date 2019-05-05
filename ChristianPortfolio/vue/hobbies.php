@@ -1,5 +1,5 @@
-		<div id="hoobie" class="container-fluid text-center">
-			<br><br><h1>HOOBIES</h1><br><br><br>
+		<div id="hoobie" class="container-fluid text-center py-5">
+			<h1>HOOBIES</h1><br><br><br>
 			<div class="row">
 				<div class="col">
 					<img id="imgHoobies" src="./images/hobbie/sport.png" alt="sport" class="rounded-circle"><h2>Sport</h2>
@@ -89,5 +89,5 @@
 					<a href="https://steamcommunity.com/id/darknagan" target="_blank"><img id="logoSocial" src="./images/social/steam.png" alt="steam"/></a>
 					<h2>Divertissement</h2>
 				</div>
-			</div><br><br><br>
+			</div>
 		</div>
