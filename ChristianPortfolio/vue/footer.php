@@ -1,11 +1,10 @@
-	<footer class="text-center">
-		<a class="up-arrow" href="#accueil" data-toggle="tooltip" title="HAUT DU SITE">
-			<span class="glyphicon glyphicon-chevron-up"></span>
-		</a>
-	</footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<div class="container-fluid bg-dark text-light text-center">
+			<br><a class="up-arrow" href="#accueil" data-toggle="tooltip" title="HAUT DU SITE"><span class="fa fa-toggle-up"></span></a><br><br>
+		</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="./js/script.js"></script>
 	</body>
 </html>

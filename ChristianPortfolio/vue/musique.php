@@ -56,7 +56,7 @@
 		</div>
 	<footer class="text-center">
 		<a class="up-arrow" href="#accueil" data-toggle="tooltip" title="HAUT DU SITE">
-			<span class="glyphicon glyphicon-chevron-up"></span>
+			<span class="fa fa-toggle-up"></span>
 		</a><br>
 	</footer>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>

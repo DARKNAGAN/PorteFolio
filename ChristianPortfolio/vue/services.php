@@ -1,40 +1,42 @@
-		<div id="service" class="container-fluis">
-			<br><br><center><h3>PRESTATIONS</h3><br>
-			<h3>Informatique - Electrique - Audio</h3></center><br>
-			<div class="w3-row-padding w3-center w3-margin-top">
-				<div class="w3-third">
-					<div class="w3-card w3-container" style="min-height:350px">
-						<h5>DECOUVRIR</h5><br>
-						<img src="./images/service/DECOUVRIR.png" alt="Formation d'initiation" style="font-size:100px; width:200px;" >
-						<ul style="list-style-type:none">
-							<li>Formation d'initiation</li><br>
-							<li>Ordinateur - Logiciel</li>
-							<li>Montage de PC</li>
+		<div id="service" class="container-fluid bg-dark text-light text-center">
+			<br><br><h1>PRESTATIONS</h1><br>
+			<h2>Informatique - Electrique - Audio</h2><br>
+			<div class="row">
+				<div class="col p-5">
+					<div class="card container bg-white text-dark"><br>
+						<h2>DECOUVRIR</h2><br>
+						<div><img id="imgPresta" src="./images/service/DECOUVRIR.png" alt="Formation d'initiation"></div>
+						<ul class="list-unstyled">
+							<li><h3>Formation d'initiation</h3></li><br>
+							<li><h4>Ordinateur - Mobile</h4></li>
+							<li><h4>Développement web</h4></li>
+							<li><h4>Infrastructure réseau</h4></li>
 						</ul><br>
 					</div>
 				</div>
-				<div class="w3-third">
-					<div class="w3-card w3-container" style="min-height:350px">
-						<h5>DEVELOPPER</h5><br>
-						<img src="./images/service/DEVELOPPER.png" alt="Formation informatique" style="font-size:100px; width:200px;">
-						<ul style="list-style-type:none">
-							<li>Formation informatique</li><br>
-							<li>Réalisation de sites web</li>
-							<li>Développement applicatif</li>
-							<li>Installation réseaux</li>
-						</ul>
+				<div class="col p-5">
+					<div class="card container bg-white text-dark"><br>
+						<h2>DEVELOPPER</h2><br>
+						<div><img id="imgPresta" src="./images/service/DEVELOPPER.png" alt="Formation informatique"></div>
+						<ul class="list-unstyled">
+							<li><h3>Création de projet</h3></li><br>
+							<li><h4>Montage de PC</h4></li>
+							<li><h4>Réalisation WEB et applicatif</h4></li>
+							<li><h4>Installation réseaux</h4></li>
+						</ul><br>
 					</div>
 				</div>
-				<div class="w3-third">
-					<div class="w3-card w3-container" style="min-height:350px">
-						<h5>DEPANNER</h5><br>
-						<img src="./images/service/DEPANNER.png" alt="Depannage informatique" style="font-size:100px; width:200px;">
-						<ul style="list-style-type:none"><br><br>
-							<li>Entretien informatique</li>
-							<li>Réalisation d'installations</li>
-							<li>Conseils</li>
-						</ul>
+				<div class="col p-5">
+					<div class="card container bg-white text-dark"><br>
+						<h2>DEPANNER</h2><br>
+						<div><img id="imgPresta" src="./images/service/DEPANNER.png" alt="Depannage informatique"></div>
+						<ul class="list-unstyled">
+							<li><h3>Entretien informatique</h3></li><br>
+							<li><h4>Dépannage PC - Téléphone</h4></li>
+							<li><h4>Néttoyage et mise a jour</h4></li>
+							<li><h4>Conseils Hardware - Software</h4></li>
+						</ul><br>
 					</div>
 				</div>
-			</div>
-		</div><br><br><br><br><br><br><br>
+			</div><br>
+		</div>
