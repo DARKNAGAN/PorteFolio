@@ -27,8 +27,10 @@
 					</ul>
 				</div>
 		</nav>
-		<div id="accueil" class="container-fluid text-center py-5">
-			<br><h1>Christian CUNAT BRULÉ </h1>
-			<h4>Apprenti informaticien, spécialiste en développement d'application.</h4>
-			<h4>Ayant pour souhait de devenir ingénieur développeur informatique industrielle.</h4>
-		</div>
+		<header>
+			<div id="accueil" class="container-fluid text-center py-5">
+				<br><h1>Christian CUNAT BRULÉ </h1>
+				<h4>Apprenti informaticien, spécialiste en développement d'application.</h4>
+				<h4>Ayant pour souhait de devenir ingénieur développeur informatique industrielle.</h4>
+			</div>
+		</header>

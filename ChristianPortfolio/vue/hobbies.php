@@ -12,15 +12,67 @@
 					<h4>High-Tech</h4>
 					<h4>Audiophile</h4>
 					<h4>Piano en Autodidacte</h4>
-					<h4>Association <a href="https://www.facebook.com/BD3AFDME/" target="_blank">BD3A</a></h4>
+					<h4><a href="https://www.facebook.com/BD3AFDME/" target="_blank">Association BD3A</a></h4>
+					
 				</div>
 				<div class="col">
 					<img id="imgHoobies" src="./images/hobbie/multimedia.png" alt="multimedia" class="rounded-circle">
 					<h2>Multimédia</h2>
-					<h4><a href="./vue/anime.php" target="_blank">Animé - Light novel</a></h4>
-					<h4><a href="./vue/films.php" target="_blank">Films</a></h4>
+					<h4><a data-toggle="modal" href="#collapseHoobieOne">Animé - Light novel</a></h4>
+					<div id="collapseHoobieOne" class="modal animated slideInUp" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+						<div class="modal-header bg-light">
+							<button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body text-dark">
+							<div class="container text-center">
+								<h3 class="bg-dark text-light py-3">Série et film d'animation visionné</h3>
+									<div id="animelist" class="row py-2"></div>
+								<h3 class="bg-dark text-light py-3">Light novel lu</h3>
+									<div id="mangalist" class="row py-2"></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+					<h4><a data-toggle="modal" href="#collapseHoobieTwo">Films</a></h4>
+					<div id="collapseHoobieTwo" class="modal animated slideInUp" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+						<div class="modal-header bg-light">
+							<button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body text-dark">
+							<div class="container text-center">
+								<h3 class="bg-dark text-light py-3">Film visionné</h3>
+									<div id="filmlist" class="row py-2"></div>
+								<h3 class="bg-dark text-light py-3">Séries suivie</h3>
+									<div id="serielist" class="row py-2"></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
 					<h4><a href="https://steamcommunity.com/id/darknagan/games/?tab=all" target="_blank">Jeux</a></h4>
-					<h4><a href="./vue/musique.php" target="_blank">Musique</a></h4>
+					<h4><a id="login-button" href="/ChristianPortfolio/vue/spotify.php" target="_blank">Musique</a> & <a data-toggle="modal" href="#collapseHoobieFour">Vidéo</a></h4>
+					<div id="collapseHoobieFour" class="modal animated slideInUp" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+						<div class="modal-header bg-light">
+							<button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body text-dark">
+							<div class="container text-center">
+								<h3 class="bg-dark text-light py-3">Playlists musicale</h3>
+									<div id="playlistlist" class="row  py-2"></div>
+								<h3 class="bg-dark text-light py-3">Artistes favoris</h3>
+									<div id="artistelist" class="row  py-2"></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
 				</div>
 			</div><br><br><br>
 			<div class="row">
