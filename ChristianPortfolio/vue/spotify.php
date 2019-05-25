@@ -22,8 +22,8 @@
 					<div id="user-profile">
 						<script id="musiquesElt" type="text/x-handlebars-template">
 						{{#each artists.items}}
-							<div class="col-2">
-									<img class="card-img rounded-circle" src="{{images.0.url}}" alt="Aucun Apperçu">
+							<div class="col">
+									<img id="imgMedia" class="card-img rounded-circle" src="{{images.0.url}}" alt="Aucun Apperçu">
 									<div class="card-body text-center">
 										<p><a class="mo-info-name" title="{{name}}" href="{{external_urls.spotify}}" target="_blank">{{name}}</a></p>
 									</div>

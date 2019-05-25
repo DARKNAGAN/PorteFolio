@@ -9,8 +9,9 @@ ajaxGet("https://www.googleapis.com/youtube/v3/playlists?part=snippet&fields=ite
 		{
 			// Ajout du titre et du contenu de chaque article
 				var divElt = document.createElement("div");
-				divElt.className = "col-2";
+				divElt.className = "col";
 				var imageElt = document.createElement("img");
+				imageElt.id = "imgMedia";
 				imageElt.className = "card-img rounded";
 				imageElt.src = results.snippet.thumbnails.default.url;
 				imageElt.alt ="Aucun Aperçu";
@@ -39,8 +40,9 @@ ajaxGet("https://www.googleapis.com/youtube/v3/subscriptions?part=snippet&fields
 		{
 			// Ajout du titre et du contenu de chaque article
 			var divElt = document.createElement("div");
-			divElt.className = "col-2";
+			divElt.className = "col";
 			var imageElt = document.createElement("img");
+			imageElt.id = "imgMedia";
 			imageElt.className = "card-img rounded-circle";
 			imageElt.src = results.snippet.thumbnails.default.url;
 			imageElt.alt ="Aucun Aperçu";

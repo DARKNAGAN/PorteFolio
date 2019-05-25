@@ -9,8 +9,9 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/animelist/completed", function 
 		{
 			// Ajout du titre et du contenu de chaque article
 				var divElt = document.createElement("div");
-				divElt.className = "col-2";
+				divElt.className = "col";
 				var imageElt = document.createElement("img");
+				imageElt.id = "imgMedia";
 				imageElt.className = "card-img rounded-top";
 				imageElt.src = results.image_url;
 				imageElt.alt ="Aucun Aperçu";
@@ -41,8 +42,9 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/mangalist/completed", function 
 		{
 			// Ajout du titre et du contenu de chaque article
 			var divElt = document.createElement("div");
-			divElt.className = "col-3";
+			divElt.className = "col";
 			var imageElt = document.createElement("img");
+			imageElt.id = "imgMedia";
 			imageElt.className = "card-img rounded";
 			imageElt.src = results.image_url;
 			imageElt.alt ="Aucun Aperçu";

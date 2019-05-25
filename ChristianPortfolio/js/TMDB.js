@@ -9,8 +9,9 @@ ajaxGet("https://api.themoviedb.org/3/account/{account_id}/rated/movies?api_key=
 		{
 				// Ajout du titre et du contenu de chaque article
 				var divElt = document.createElement("div");
-				divElt.className = "col-2";
+				divElt.className = "col";
 				var imageElt = document.createElement("img");
+				imageElt.id = "imgMedia";
 				imageElt.className = "card-img rounded-top";
 				imageElt.src = "https://image.tmdb.org/t/p/w150_and_h225_bestv2/" +results.poster_path;
 				var contenuElt = document.createElement("div");
@@ -34,8 +35,9 @@ ajaxGet("https://api.themoviedb.org/3/account/{account_id}/rated/tv?api_key=1fe1
 		{
 			// Ajout du titre et du contenu de chaque article
 			var divElt = document.createElement("div");
-			divElt.className = "col-2";
+			divElt.className = "col";
 			var imageElt = document.createElement("img");
+			imageElt.id = "imgMedia";
 			imageElt.className = "card-img rounded-top";
 			imageElt.src = "https://image.tmdb.org/t/p/w150_and_h225_bestv2" +results.poster_path;
 			var contenuElt = document.createElement("div");

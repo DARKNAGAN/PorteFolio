@@ -18,8 +18,8 @@
 				<div class="col">
 					<img id="imgHoobies" src="./images/hobbie/multimedia.png" alt="multimedia" class="rounded-circle">
 					<h2>Multimédia</h2>
-					<h4><a data-toggle="modal" href="#collapseHoobieOne">Animé - Light novel</a></h4>
-					<div id="collapseHoobieOne" class="modal animated slideInUp" role="dialog">
+					<h4><a data-toggle="modal" href="#collapseHoobieOne">Animés - Light novel</a></h4>
+					<div id="collapseHoobieOne" class="modal animated zoomInRight" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 						<div class="modal-header bg-light">
@@ -27,9 +27,9 @@
 						</div>
 						<div class="modal-body text-dark">
 							<div class="container text-center">
-								<h3 class="bg-dark text-light py-3">Série et film d'animation visionné</h3>
+								<h3 class="bg-dark text-light py-3">Séries et films d'animation visionnés</h3>
 									<div id="animelist" class="row py-2"></div>
-								<h3 class="bg-dark text-light py-3">Light novel lu</h3>
+								<h3 class="bg-dark text-light py-3">Livre Light novel lu</h3>
 									<div id="mangalist" class="row py-2"></div>
 							</div>
 						</div>
@@ -37,7 +37,7 @@
 					</div>
 					</div>
 					<h4><a data-toggle="modal" href="#collapseHoobieTwo">Films</a></h4>
-					<div id="collapseHoobieTwo" class="modal animated slideInUp" role="dialog">
+					<div id="collapseHoobieTwo" class="modal animated zoomInRight" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 						<div class="modal-header bg-light">
@@ -45,9 +45,9 @@
 						</div>
 						<div class="modal-body text-dark">
 							<div class="container text-center">
-								<h3 class="bg-dark text-light py-3">Film visionné</h3>
+								<h3 class="bg-dark text-light py-3">Films visionnés</h3>
 									<div id="filmlist" class="row py-2"></div>
-								<h3 class="bg-dark text-light py-3">Séries suivie</h3>
+								<h3 class="bg-dark text-light py-3">Séries visionnés</h3>
 									<div id="serielist" class="row py-2"></div>
 							</div>
 						</div>
@@ -55,8 +55,8 @@
 					</div>
 					</div>
 					<h4><a href="https://steamcommunity.com/id/darknagan/games/?tab=all" target="_blank">Jeux</a></h4>
-					<h4><a id="login-button" href="/ChristianPortfolio/vue/spotify.php" target="_blank">Musique</a> & <a data-toggle="modal" href="#collapseHoobieFour">Vidéo</a></h4>
-					<div id="collapseHoobieFour" class="modal animated slideInUp" role="dialog">
+					<h4><a id="login-button" href="/ChristianPortfolio/vue/spotify.php" target="_blank">Musiques</a> & <a data-toggle="modal" href="#collapseHoobieFour">Vidéos</a></h4>
+					<div id="collapseHoobieFour" class="modal animated zoomInRight" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 						<div class="modal-header bg-light">
@@ -64,10 +64,10 @@
 						</div>
 						<div class="modal-body text-dark">
 							<div class="container text-center">
-								<h3 class="bg-dark text-light py-3">Playlists musicale</h3>
-									<div id="playlistlist" class="row  py-2"></div>
+								<h3 class="bg-dark text-light py-3">Playlists musicale </h3>
+									<div id="playlistlist" class="row py-2"></div>
 								<h3 class="bg-dark text-light py-3">Artistes favoris</h3>
-									<div id="artistelist" class="row  py-2"></div>
+									<div id="artistelist" class="row py-2"></div>
 							</div>
 						</div>
 						</div>
@@ -78,7 +78,7 @@
 			<div class="row">
 			<div class="col">
 				<button class="btn btn-dark btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseEvent" aria-expanded="true" aria-controls="collapseEvent">Evènements</button>
-					<div class="collapse"  id="collapseEvent">
+					<div class="collapse" id="collapseEvent">
 						<div class="card-body bg-dark">
 							<ul class="list-group list-group-flush overflow-auto m-3">
 								<li class="list-group-item"><h4>Concert Starset</h4><h5>04 avril 2018</h5></li>

@@ -7,7 +7,7 @@
 				<div class="media-body"><h3 class="text-center">Réalisation et dépannage d'installations de Réseaux Voix, Données, Images</h3>
 				<button type="button" class="btn btn-outline-light btn-block" data-toggle="modal" data-target="#collapseProOne"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProOne" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProOne" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -40,7 +40,7 @@
 				<div class="media-body"><h3 class="text-center">Développement de sites web Full-Stack<br>Vitrines - Blogs - Web-apps</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapseProTwo"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProTwo" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProTwo" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -64,7 +64,7 @@
 				<div class="media-body"><h3 class="text-center">Développement de modules spécifiques dans un progiciel Infor ERP Syteline et utilisation de l'outil SSRS</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapseProThree"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProThree" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProThree" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -92,7 +92,7 @@
 				<div class="media-body"><h3 class="text-center">Développement d'applications client lourd</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapseProFour"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProFour" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProFour" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -115,7 +115,7 @@
 				<div class="media-body"><h3 class="text-center">Développement logiciel dans un outil de gestion de portefeuilles de projets</h3>
 				<button type="button" class="btn btn-outline-light btn-block" data-toggle="modal" data-target="#collapseProFive"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProFive" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProFive" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -141,7 +141,7 @@
 				<div class="media-body"><h3 class="text-center">Installation, maintenance et dépannage de systèmes de climatisation</h3>
 				<button type="button" class="btn btn-outline-light btn-block" data-toggle="modal" data-target="#collapseProSix"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProSix" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProSix" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -161,7 +161,7 @@
 				<div class="media-body"><h3 class="text-center">Entretien de lignes d'impression offset, emballage, empaquetage</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapseProSeven"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapseProSeven" class="modal animated slideInUp" role="dialog">
+					<div id="collapseProSeven" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -181,7 +181,7 @@
 				<div class="media-body"><h3 class="text-center">Raspberry</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapsePersoOne"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapsePersoOne" class="modal animated slideInUp" role="dialog">
+					<div id="collapsePersoOne" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -202,7 +202,7 @@
 				<div class="media-body"><h3 class="text-center">Adobe CC 2017: Création graphique</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapsePersoTwo"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapsePersoTwo" class="modal animated slideInUp" role="dialog">
+					<div id="collapsePersoTwo" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
@@ -227,7 +227,7 @@
 				<h3 class="text-center">Réalisation d'un Portfolio personnel</h3>
 				<button type="button" class="btn btn-outline-light btn-block"  data-toggle="modal" data-target="#collapsePersoThree"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
-					<div id="collapsePersoThree" class="modal animated slideInUp" role="dialog">
+					<div id="collapsePersoThree" class="modal animated zoomInUp" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
