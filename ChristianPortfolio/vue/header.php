@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Portfolio</title>
 		<meta charset="utf-8">
+		<meta name="description" content="Présentation des projets, compétences, services et activitées de Christian Cunat-Brulé.">
+		<meta name="author" content="Christian CUNAT-BRULÉ">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio Cunat-Brulé Christian</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 		<link rel="stylesheet" href="./css/style.css" media="all" type="text/css"> 
 	</head>
@@ -28,9 +29,9 @@
 				</div>
 		</nav>
 		<header>
-			<div id="accueil" class="container-fluid text-center py-5">
-				<br><h1>Christian CUNAT BRULÉ </h1>
-				<h4>Apprenti informaticien, spécialiste en développement d'application.</h4>
-				<h4>Ayant pour souhait de devenir ingénieur développeur informatique industrielle.</h4>
+			<div id="accueil" class="container-fluid text-center py-5" tabindex="0">
+				<h2 class="pt-5">Christian CUNAT BRULÉ</h2>
+				<h5>Apprenti informaticien, spécialiste en développement d'application.</h5>
+				<h5>Ayant pour souhait de devenir ingénieur développeur informatique industrielle.</h5>
 			</div>
 		</header>

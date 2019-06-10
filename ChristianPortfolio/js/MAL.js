@@ -11,7 +11,7 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/animelist/completed", function 
 				var divElt = document.createElement("div");
 				divElt.className = "col";
 				var imageElt = document.createElement("img");
-				imageElt.id = "imgMedia";
+				imageElt.class = "imgMedia";
 				imageElt.className = "card-img rounded-top";
 				imageElt.src = results.image_url;
 				imageElt.alt ="Aucun Aperçu";
@@ -22,6 +22,7 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/animelist/completed", function 
 				var lienElt = document.createElement("a");
 				lienElt.href = results.video_url;
 				lienElt.target = "_blank";
+				lienElt.rel = "noopener";
 				lienElt.textContent = results.title;
 				animesElt.appendChild(divElt);
 				divElt.appendChild(imageElt);
@@ -44,7 +45,7 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/mangalist/completed", function 
 			var divElt = document.createElement("div");
 			divElt.className = "col";
 			var imageElt = document.createElement("img");
-			imageElt.id = "imgMedia";
+			imageElt.class = "imgMedia";
 			imageElt.className = "card-img rounded";
 			imageElt.src = results.image_url;
 			imageElt.alt ="Aucun Aperçu";
@@ -54,6 +55,7 @@ ajaxGet("https://api.jikan.moe/v3/user/DARKNAGAN/mangalist/completed", function 
 			var lienElt = document.createElement("a");
 			lienElt.href = results.url;
 			lienElt.target = "_blank";
+			lienElt.rel = "noopener";
 			lienElt.textContent = results.title;
 			mangasElt.appendChild(divElt);
 			divElt.appendChild(imageElt);

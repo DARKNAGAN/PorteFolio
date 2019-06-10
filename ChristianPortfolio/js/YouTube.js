@@ -11,7 +11,7 @@ ajaxGet("https://www.googleapis.com/youtube/v3/playlists?part=snippet&fields=ite
 				var divElt = document.createElement("div");
 				divElt.className = "col";
 				var imageElt = document.createElement("img");
-				imageElt.id = "imgMedia";
+				imageElt.class = "imgMedia";
 				imageElt.className = "card-img rounded";
 				imageElt.src = results.snippet.thumbnails.default.url;
 				imageElt.alt ="Aucun Aperçu";
@@ -21,6 +21,7 @@ ajaxGet("https://www.googleapis.com/youtube/v3/playlists?part=snippet&fields=ite
 				var lienElt = document.createElement("a");
 				lienElt.href = "https://www.youtube.com/playlist?list="+results.id;
 				lienElt.target = "_blank";
+				lienElt.rel = "noopener";
 				lienElt.textContent = results.snippet.title;
 				playlistsElt.appendChild(divElt);
 				divElt.appendChild(imageElt);
@@ -42,7 +43,7 @@ ajaxGet("https://www.googleapis.com/youtube/v3/subscriptions?part=snippet&fields
 			var divElt = document.createElement("div");
 			divElt.className = "col";
 			var imageElt = document.createElement("img");
-			imageElt.id = "imgMedia";
+			imageElt.class = "imgMedia";
 			imageElt.className = "card-img rounded-circle";
 			imageElt.src = results.snippet.thumbnails.default.url;
 			imageElt.alt ="Aucun Aperçu";
@@ -52,6 +53,7 @@ ajaxGet("https://www.googleapis.com/youtube/v3/subscriptions?part=snippet&fields
 			var lienElt = document.createElement("a");
 			lienElt.href = "https://www.youtube.com/channel/"+results.snippet.resourceId.channelId;
 			lienElt.target = "_blank";
+			lienElt.rel = "noopener";
 			lienElt.textContent = results.snippet.title;
 			artistesElt.appendChild(divElt);
 			divElt.appendChild(imageElt);

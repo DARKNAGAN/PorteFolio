@@ -1,5 +1,5 @@
 html,body,h1,h2,h3,h4,h5,h6,p {
-	font-family: "Vollkorn-Regular";
+	font-family: "Georgia";
 	/*font-style: italic;
 	font-weight: bold;*/
 	}
@@ -8,35 +8,72 @@ html,body,h1,h2,h3,h4,h5,h6,p {
 	letter-spacing: 4px;
 	opacity: 0.9;
 	}
-#imgCV {
+.imgCV {
 	float: right;
 	width: auto;
 	max-height: 52px;
 	}
-#imgHoobies {
+.imgHoobies {
 	width: 40%;
 	}
-#imgProjet {
+.imgProjet {
 	width:100%;
 	}
-#imgMedia {
+.imgMedia {
 	width:auto;
 	max-height:180px;
 	}
 .list-group{
 	height:295px; 
 	}
-.up-arrow{
-	font-size:30px;
-	}
 /*CV*/
-.grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-column-gap: 10px;
-	text-align: center;
-	}
+
 .checked {
 	color: orange;
 	}
+.text-teal, .hover-text-teal:hover {
+	color: #009688;
+}
+.teal, .hover-teal:hover {
+	color: #fff;
+	background-color: #009688;
+}
 /*CV*/
+
+
+.linkedin, .hover-linkedin:hover {
+	color: #0077B5;
+}
+.github, .hover-github:hover {
+	color: #24292e;
+}
+.google, .hover-google:hover {
+	color: #4285f4;
+}
+.microsoft, .hover-microsoft:hover {
+	color: #03a5f0;
+}
+.facebook, .hover-facebook:hover {
+	color: #3b5999;
+}
+.instagram, .hover-instagram:hover {
+	color: #e4405f;
+}
+.twitter, .hover-twitter:hover {
+	color: #55acee;
+}
+.strava, .hover-strava:hover {
+	color: #fc4c02;
+}
+.youtube, .hover-youtube:hover {
+	color: #ff0000;
+}
+.mal, .hover-mal:hover {
+	vertical-align: bottom;
+}
+.tmdb, .hover-tmdb:hover {
+	vertical-align: bottom;
+}
+.steam, .hover-steam:hover {
+	color: #171A21;
+}

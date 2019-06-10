@@ -1,172 +1,239 @@
 		<div id="cv" class="container-fluid py-5">
-			<h1 class="w3-center"> Développeur et administrateur réseaux informatique</h1><br>
-			<h2 class="w3-center">Cherche contrat d'apprentissage de deux ans niveau ingénieur informatique</h2>
-			<div class="w3-content w3-margin-top" style="max-width:1400px;"><!-- Page Container -->
-				<div class="w3-row-padding"><!-- The Grid -->
-					<div class="w3-third"><!-- Left Column -->
-						<div class="w3-container w3-white w3-text-grey w3-card-4">
-							<h1 class="w3-center">Christian<br>CUNAT-BRULÉ<hr></h1>
-							<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Essonne, France</p>
-							<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>07.**.**.36.34</p>
-							<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ccunatbrule@gmail.com</p>
-							<p><i class="fa fa-at fa-fw w3-margin-right w3-large w3-text-teal"></i>ccunatbrule.free.fr<hr></p>
-							<center><p><i class="w3-margin-right w3-large w3-text-teal"></i>22 ans - Permis - Véhiculé</p></center>
-						</div><br>
-						<div class="w3-container w3-white w3-text-grey w3-card-4">
-							<div class="grid-container">
-								<!--<p>Junior<span class="fa fa-star"></span></span></p>-->
-								<p>Autonome <br> <span class="fa fa-star checked"></span></p>
-								<p>Confirmé <br><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
-								<p>Expert <br><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
+		<div tabindex="0">
+		<h2 class="text-center py-3">CURRICULUM VITAE</h2>
+			<h2 class="text-center mb-4"> Développeur informatique et administrateur réseaux </h2>
+			<h3 class="text-center mb-3">Cherche contrat en développement informatique industrielle et réseaux</h3>
+			</div>
+						<div class="row justify-content-center">
+							<div class="col-auto">
+							<div class="container card mb-3" tabindex="0">
+								<h3 class="text-center m-3">Christian<br>CUNAT-BRULÉ</h3><hr>
+								<p><i class="fa fa-home fa-md mr-3 text-teal"></i>Essonne, France</p>
+								<p><i class="fa fa-phone fa-md mr-3 text-teal"></i>07.76.67.36.34</p>
+								<p><i class="fa fa-envelope fa-md mr-3 text-teal"></i>ccunatbrule@gmail.com</p>
+								<p><i class="fa fa-at fa-md mr-3 text-teal"></i>ccunatbrule.free.fr</p><hr>
+								<p class="text-center"><i class="text-teal"></i>22 ans - Permis - Véhiculé</p>
 							</div>
-							<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Langues</b></p>
-							<div class="grid-container">
-								<p>Français</p>
-								<p></p>
-								<p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
-								<p> Anglais</p>
-								<p></p>
-								<p><span class="fa fa-star checked"></p>
-							</div>
-							<p class="w3-large w3-text-theme"><b><i class="fa fa-code w3-margin-right w3-text-teal"></i>Langages Informatique</b></p>
-							<div class="grid-container">
-								<p>HTML / CSS</p>
-								<p>SQL</p>
-								<p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
-								<p>PHP / JavaScript</p>
-								<p>Python</p>
-								<p><span class="fa fa-star checked"></span></p>
-								<p>C / C++</p>
-								<p>JAVA</p>
-								<p><span class="fa fa-star checked"></span></p>
-								<p>VB / VB.NET</p>
-								<p></p>
-								<p><span class="fa fa-star checked"></span></p>
-							</div>
-							<p class="w3-large"><b><i class="fa fa-cubes w3-margin-right w3-text-teal"></i>Environnement de développement</b></p>
-							<div class="grid-container">
-								<p>WampServer</p>
-								<p>Visual Basic for Applications</p>
-								<p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
-								<p>Eclipse</p>
-								<p>Android Studio</p>	
-								<p><span class="fa fa-star checked"></span></p>
-							</div>
-							<p class="w3-large"><b><i class="fa fa-object-group w3-margin-right w3-text-teal"></i>Logiciels Entreprise</b></p>
-							<div class="grid-container">
-								<p>Microsoft Office</p>
-								<p></p>
-								<p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
-								<p>GLPI / OCS</p>
-								<p>Git</p>
-								<p><span class="fa fa-star checked"></span></p>
-								<p>Adobe CS6 Design</p>
-								<p></p>
-								<p><span class="fa fa-star checked"></span></p>
-							</div>
-							<p class="w3-large"><b><i class="fa fa-server w3-margin-right w3-text-teal"></i>Réseaux</b></p>
-							<div class="grid-container">
-								<p>Courant faible (VDI)</p>
-								<p></p>
-								<p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
-								<p>Fibre optique</p>
-								<p>Commutateur</p>
-								<p><span class="fa fa-star checked"></span></p>
-							</div>
-						</div><br>
-						<div class="w3-container w3-white w3-text-grey w3-card-4">
-							<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Habilitations / Certifications</b></p>
-							<div class="grid-container">
-								<p>Electrique H0B0</p><p></p><p>2019</p>
-								<p>Extincteur</p><p></p><p>2018</p>
-								<p>Sauveteur secouriste du travail </p><p></p><p>2014</p>
-								<p>Electrique H0B1V</p><p></p><p>2013</p>
-							</div>
-						</div><br>
-					</div><!-- End Left Column -->
-					<div class="w3-twothird"><!-- Right Column -->
-						<div class="w3-container w3-card w3-white w3-card-4 w3-margin-bottom">
-							<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board w3-margin-right w3-xxlarge w3-text-teal"></i>Formations</h2>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/IUTE.png" alt="IUT EVRY">
-								<h5 class="w3-opacity"><b>Licence Professionnelle en informatique (LP ISVD)</b></h5>
-								<h6 class="w3-text-teal"><span class="w3-tag w3-teal w3-round">En cours</span> Université d'Evry-Val-d'Essonne - Université Paris-Saclay / 2018 - 2019 </h6>
-								<p>Intégration des Systèmes Voix Données - Métiers des réseaux informatiques et télécommunications</p>
-							</div>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/IUTO.png" alt="IUT ORSAY">
-								<h5 class="w3-opacity"><b>Licence Professionnelle en informatique (LP PRISM)</b></h5>
-								<h6 class="w3-text-teal"><span class="w3-tag w3-teal w3-round">Obtenu</span> Université d'Orsay Paris-Sud - Université Paris-Saclay / 2017 - 2018 </h6>
-								<p>Programmation Internet et Systèmes Mobiles - Conception, développement et test de logiciels</p>
-							</div>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/INSTA.png" alt="CFA INSTA">
-								<h5 class="w3-opacity"><b>Brevet de Technicien Supérieur (BTS SIO SLAM)</b></h5>
-								<h6 class="w3-text-teal"><span class="w3-tag w3-teal w3-round">Obtenu</span> CFA INSTA Paris / 2015 - 2017 </h6>
-								<p>Services Informatiques aux Organisations - Solutions Logicielles et Applications Métiers</p>
-							</div>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/FDME.png" alt="FDME Evry">
-								<h5 class="w3-opacity"><b>Baccalauréat Professionnel (Bac Pro ELEEC)</b></h5>
-								<h6 class="w3-text-teal"><span class="w3-tag w3-teal w3-round">Obtenu</span> Faculté des Métiers de l'Essonne, Campus d'Évry / 2012 - 2015 </h6>
-								<p>Électrotechnique, Énergie, Équipements Communicants</p>
-							</div><br>
-						</div>	
-						<div class="w3-container w3-card w3-white w3-card-4 w3-margin-bottom">
-							<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Expériences Professionnelles</h2>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/SOGETI.png" alt="SOGETI">
-								<h5 class="w3-opacity"><b>Apprenti Administrateur Réseau</b></h5>
-								<h6 class="w3-text-teal">Capgemini - Saint-Cloud / Sept 2018 - <span class="w3-tag w3-teal w3-round">Actuel</span></h6>
-								<p>-	Administration d'infrastructure réseau.<br>
-								-	Paramétrage et installation de commutateur HP.</p>
-							</div>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/CEA.png" alt="CEA">
-								<h5 class="w3-opacity"><b>Apprenti Assistant à Maîtrise d'Ouvrage </b></h5>
-								<h6 class="w3-text-teal">CEA - Ile-de-France / 2017 - 2018</h6>
-								<p>-	Analyse du besoin des utilisateurs (audits, analyse des procédures, etc.).<br>
-								-	Développement logiciel dans un outil de gestion de portefeuilles de projets dans SharePoint.<br>
-								-	Réalisation de fonctionnalités dans les outils Excel et PowerPoint et développement de macro.</p>
-							</div>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/G4.png" alt="G4">
-								<h5 class="w3-opacity"><b>Apprenti Développeur</b></h5>
-								<h6 class="w3-text-teal"> G4 - Arpajon / 2015 - 2017</h6>
-								<p>-	Développement d’interfaces utilisateur dans un progiciel de gestion intégré Syteline.<br>
-								-	Réalisation de modules spécifiques et leur documentation selon un cahier des charges. <br>
-								-	Développement de rapports personnalisés dans un service de reporting (SSRS).</p>
-							</div>
-							<div class="w3-container">
-								<img id="imgCV" src="./images/cv/SDEL.png" alt="SDEL TC">
-								<h5 class="w3-opacity"><b>Apprenti Technicien</b></h5>
-								<h6 class="w3-text-teal">SDEL Transport en Commun - Villejuif  / 2012 - 2015 </h6>
-								<p>-	Réalisation et dépannage d'installation VDI (Voix, Données, Images) et systèmes d’alarme incendie.<br>
-								-	Installation et branchement de fibres optiques dans des baies de brassage informatiques. <br>
-								-	Installation d’antennes relais de téléphonie mobile.</p>
-							</div><br>
+							<div class="container card mb-3"><!-- Competence Column -->
+							<h4 class="text-dark p-3" tabindex="0"><i class="fa fa-sliders-h fa-lg mr-3 text-teal"></i>Compétences</h4>
+								<div class="row text-center p-2" tabindex="0" aria-label="Niveau de compétences">
+									<!--<div class="col">
+									<p>Junior<i class="fa fa-star"></i></p>
+									</div>-->
+									<div class="col">
+										<p>Autonome<br><i class="fa fa-star checked"></i></p>
+									</div><div class="col">
+										<p>Confirmé<br><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i></p>
+									</div><div class="col">
+										<p>Expert<br><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col" tabindex="0">
+										<h6><strong><i class="fa fa-globe fa-lg mr-3 text-teal"></i>Langues</strong></h6>
+								<div class="row text-center p-2">
+								<div class="col">
+								<p>Français<br><span aria-label="Niveau confirmé"><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i></span></p>
+									</div><div class="col">
+										<p>Anglais<br><span aria-label="Niveau autonome"><i class="fa fa-star checked"></i></span></p>
+									</div>
+								</div>
+									</div>
+								</div>
+								<div class="row justify-content-between" tabindex="0">
+									<div class="col">
+										<h6><strong><i class="fa fa-code fa-lg mr-3 text-teal"></i>Langages Informatique</strong></h6>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>HTML | CSS | SQL</p>
+									</div><div class="col-auto text-right" aria-label="Niveau confirmé">
+										<i class="fa fa-star checked"></i><i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>PHP | JavaScript<br>XML | CSV | JSON</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>Python | JAVA | C++ <br> VB.NET | VBScript | VBA</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								</div>
+								</div>
+								<div class="row justify-content-between" tabindex="0">
+									<div class="col">
+										<h6><strong><i class="fa fa-cubes fa-lg mr-3 text-teal"></i>Environnement de développement</strong></h6>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>Visual Basic 2010 Express<br>Eclipse | Code::Blocks<br>Android Studio | DevTools Web</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>MySQL | MariaDB | MongoDB<br>Microsoft Access | SQL Server</p>
+									</div><div class="col-auto text-right" aria-label="Niveau confirmé">
+										<i class="fa fa-star checked"></i><i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>Postman | Bootstrap | NVDA<br>Jquery | Ajax | DOM | WordPress</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col"  tabindex="0">
+										<h6><strong><i class="fa fa-object-group fa-lg mr-3 text-teal"></i>Logiciels Entreprise</strong></h6>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>Microsoft Office | Adobe CS6 Design</p>
+									</div><div class="col-auto text-right" aria-label="Niveau confirmé">
+										<i class="fa fa-star checked"></i><i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>GLPI | OCS | Git</p>
+									</div><div class="col-auto text-right" aria-label="Niveau confirmé">
+										<i class="fa fa-star checked"></i><i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								</div>
+								</div>
+								<div class="row justify-content-between" tabindex="0">
+									<div class="col">
+										<h6><strong><i class="fa fa-server fa-lg mr-3 text-teal"></i>Réseaux</strong></h6>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>Modèle OSI 1 - 3 | IEEE 802</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between"><div class="col-auto">
+										<p>VMware | VirtualBox | Packet Tracer<br>WampServer | XAMPP<br>Putty | Wireshark | FileZilla</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<p>Cisco | HP | 3Com | Juniper<br>Polycom | IPBX</p>
+									</div><div class="col-auto text-right" aria-label="Niveau autonome">
+										<i class="fa fa-star checked"></i>
+									</div>
+								</div>
+								</div>
+								</div>
+							</div><!-- Competence Column -->
 						</div>
-					</div><!-- End Right Column -->
-					<div class="w3-container w3-center"><!-- Bottom Column -->
-						<div class="w3-white w3-text-grey w3-card-4">
-							<div class="w3-container">
-								<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-star-o w3-margin-right w3-xxlarge w3-text-teal"></i>Centres d'intérêt</h2>
-								<div class="w3-container w3-quarter">
-									<h5><i class="fa fa-futbol-o w3-margin-right w3-xxlarge w3-text-teal"></i><b>Sports</b></h5>
-									<p>Équitation galop 4<br>Salle de sport<br>Course à pied</p>
+						<div class="col-auto">
+							<div class="container card mb-3" tabindex="0"><!-- Pro Column -->
+								<h4 class="text-dark p-3"><i class="fa fa-suitcase fa-lg mr-3 text-teal"></i>Expériences Professionnelles</h4>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/SOGETI.png" alt="SOGETI">
+									<h6 class="text-muted"><strong>Apprenti Administrateur Réseau</strong></h6>
+									<small class="text-teal">Capgemini - Saint-Cloud | Sept 2018 - <span class="badge badge-pill teal rounded">Actuel</span></small>
+									<p>- Administration d'infrastructure réseau.<br>
+									- Paramétrage et installation de commutateur HP.</p>
 								</div>
-								<div class="w3-container w3-third">
-									<h5><i class="fa fa-newspaper-o w3-margin-right w3-xxlarge w3-text-teal"></i><b>Hoobies</b></h5>
-									<p>High tech<br>Audiophile<br>Piano en Autodidacte</p>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/CEA.png" alt="CEA">
+									<h6 class="text-muted"><strong>Apprenti Assistant à Maîtrise d'Ouvrage</strong></h6>
+									<small class="text-teal">CEA - Ile-de-France | 2017 - 2018</small>
+									<p>- Analyse du besoin des utilisateurs (audits, analyse des procédures, etc.).<br>
+									- Développement logiciel dans un outil de gestion de portefeuilles de projets dans SharePoint.<br>
+									- Réalisation de fonctionnalités dans les outils Excel et PowerPoint et développement de macro.</p>
 								</div>
-								<div class="w3-container w3-third">
-									<h5><i class="fa fa-group w3-margin-right w3-xxlarge w3-text-teal"></i><b>Association BD3A</b></h5>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/G4.png" alt="G4">
+									<h6 class="text-muted"><strong>Apprenti Développeur</strong></h6>
+									<small class="text-teal"> G4 - Arpajon | 2015 - 2017</small>
+									<p>- Développement d’interfaces utilisateur dans un progiciel de gestion intégré Syteline.<br>
+									- Réalisation de modules spécifiques et leur documentation selon un cahier des charges. <br>
+									- Développement de rapports personnalisés dans un service de reporting (SSRS).</p>
+								</div>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/SDEL.png" alt="SDEL TC">
+									<h6 class="text-muted"><strong>Apprenti Technicien</strong></h6>
+									<small class="text-teal">SDEL Transport en Commun - Villejuif | 2012 - 2015</small>
+									<p>- Réalisation et dépannage d'installation VDI (Voix, Données, Images) et systèmes d’alarme incendie.<br>
+									- Installation et branchement de fibres optiques dans des baies de brassage informatiques. <br>
+									- Installation d’antennes relais de téléphonie mobile.</p>
+								</div>
+							</div><!-- Pro Column -->
+							<div class="container card mb-3" tabindex="0"><!-- Formation Column -->
+								<h4 class="text-dark p-3"><i class="fa fa-graduation-cap fa-lg mr-3 text-teal"></i>Formations</h4>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/IUTE.png" alt="IUT EVRY">
+									<h6 class="text-muted"><strong>Licence Professionnelle en informatique (LP ISVD)</strong></h6>
+									<small class="text-teal"><span class="badge badge-pill teal rounded">En cours</span> Université d'Evry-Val-d'Essonne - Université Paris-Saclay | 2018 - 2019</small>
+									<p>Intégration des Systèmes Voix Données<br>Métiers des réseaux informatiques et télécommunications</p>
+								</div>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/IUTO.png" alt="IUT ORSAY">
+									<h6 class="text-muted"><strong>Licence Professionnelle en informatique (LP PRISM)</strong></h6>
+									<small class="text-teal"><span class="badge badge-pill teal rounded">Obtenu</span> Université d'Orsay Paris-Sud - Université Paris-Saclay | 2017 - 2018</small>
+									<p>Programmation Internet et Systèmes Mobiles<br>Conception, développement et test de logiciels</p>
+								</div>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/INSTA.png" alt="CFA INSTA">
+									<h6 class="text-muted"><strong>Brevet de Technicien Supérieur (BTS SIO SLAM)</strong></h6>
+									<small class="text-teal"><span class="badge badge-pill teal rounded">Obtenu</span> CFA INSTA Paris | 2015 - 2017</small>
+									<p>Services Informatiques aux Organisations<br>Solutions Logicielles et Applications Métiers</p>
+								</div>
+								<div class="container">
+									<img class="imgCV" src="./images/cv/FDME.png" alt="FDME Evry">
+									<h6 class="text-muted"><strong>Baccalauréat Professionnel (Bac Pro ELEEC)</strong></h6>
+									<small class="text-teal"><span class="badge badge-pill teal rounded">Obtenu</span> Faculté des Métiers de l'Essonne, Campus d'Évry | 2012 - 2015</small>
+									<p>Électrotechnique, Énergie, Équipements Communicants</p>
+								</div>
+							</div><!-- Formation Column -->
+							<div class="container card mb-3 p-2"><!-- Divers Column -->
+								<h4 class="text-dark p-3" tabindex="0"><i class="fa fa-info-circle fa-lg mr-3 text-teal"></i>Divers connaissances</h4>
+								<div class="row m-2">
+									<div class="col" tabindex="0"><div class="container">
+										<h6 class="text-center"><strong>Gestion de Projet</strong></h6>
+										<p>Méthodologie ITIL<br>Methode Agil | Adaptative | PERT<br>L'accessibilité numérique<br>Developpement multiplateforme</p>
+									</div></div>
+									<div class="col" tabindex="0"><div class="container">
+										<h6 class="text-center"><strong>Habilitations | Certifications</strong></h6>
+										<p>Electrique H0B0 - 2019<br>Extincteur - 2018<br>Sauveteur secouriste du travail - 2014<br>Electrique H0B1V 2013</p>
+									</div></div>
+								</div>
+							</div><!-- Divers Column -->
+						</div>
+					<div class="container text-center card mb-3" tabindex="0"><!-- Bottom Column -->
+						<h4 class="text-dark p-3"><i class="far fa-star fa-lg mr-3 text-teal"></i>Centres d'intérêt</h4>
+							<div class="row m-2">
+								<div class="col"><div class="container">
+									<h6><strong><i class="fa fa-futbol fa-lg mr-3 text-teal"></i>Sports</strong></h6>
+									<p>Équitation, Galop 4<br>Course à pied<br>Salle de sport</p>
+								</div></div>
+								<div class="col"><div class="container">
+									<h6><strong><i class="far fa-newspaper fa-lg mr-3 text-teal"></i>Hoobies</strong></h6>
+									<p>High-tech<br>Audiophile<br>Piano en Autodidacte<br>Moto de loisirs</p>
+								</div></div>
+								<div class="col"><div class="container">
+									<h6 class=><strong><i class="fa fa-users fa-lg mr-3 text-teal"></i>Association BD3A</strong></strong></h6>
 									<p>Organisation d’activités sportives et évènementielles contribuant à l’intégration<br>d’apprentis au sein de la Faculté des Métiers.</p>
-								</div>
-							</div><br>
-						</div>
+								</div></div>
+							</div>
 					</div><!-- End Bottom Column -->
-				</div><!-- End Grid -->
-			</div><!-- End Page Container -->
-		<!--<span class="glyphicon glyphicon-save text-center" style="font-size:20px; color:white;">Télécharger</span>-->
+					</div>
+					<div class="container">
+						<button class="btn btn-outline-info fa fa-file-download fa-md" data-toggle="tooltip" data-placement="top" title="Ne fonctionne correctement que sur PC en pleine écran" onclick="takeScreenShot() "> Télécharger</button>
+					</div>
+			</div>
 		</div>

@@ -1,19 +1,21 @@
-		<div id="service" class="container-fluid bg-dark text-light">
-			<div class="text-center"><br><br><h1>PRESTATIONS</h1><br>
-			<h2>Informatique - Electrique - Audio</h2></div>
+		<div id="service" class="container-fluid bg-dark text-light py-5">
+			<div class="text-center" tabindex="0">
+			<h2 class="py-3">PRESTATIONS</h2>
+			<h3 class="py-2">Informatique - Electrique - Audio</h3>
+			</div>
 			<div class="row">
 				<div class="col p-5">
-					<div class="card bg-white text-dark text-center"><a class=" btn-outline-info" href="" data-toggle="modal" data-target="#collapsePrestaOne"><br>
-						<h2>DECOUVRIR</h2><br>
-						<div><img id="imgPresta" src="./images/service/DECOUVRIR.png" alt="Formation d'initiation"></div>
-							<h3>Formation d'initiation</h3><br><br>
+					<div class="card bg-white text-dark text-center" tabindex="0"><a class=" btn-outline-info" data-toggle="modal" data-target="#collapsePrestaOne">
+						<h3 class="py-3">DÉCOUVRIR</h3>
+						<div><img class="imgPresta" src="./images/service/DECOUVRIR.png" alt="Image de formation"></div>
+							<h4 class="pb-4">Formation d'initiation</h4>
 					</a></div>
 				<!--Modal-->
-					<div id="collapsePrestaOne" class="modal animated zoomIn" role="dialog">
+					<div id="collapsePrestaOne" class="modal animated zoomIn" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
-								<h4 class="modal-title">Découvrir - Formation d'initiation et perfectionnement</h4>
+								<h5 class="modal-title">Découvrir - Formation d'initiation et perfectionnement</h5>
 								<button type="button" class="close text-light" data-dismiss="modal">&times;</button>
 							</div>
 							<div class="modal-body text-dark">
@@ -21,15 +23,15 @@
 								  <div class="col-8 text-center">Mes services</div>
 								  <div class="col-4 text-center">Tarif à partir de</div>
 								  <hr><div class="col-8">Formation pour outils professionnel (Microsoft Office - Adobe Créative Suite)</div>
-								  <div class="col-4 text-center">25€/h</div>
+								  <div class="col-4 text-center">25€/heure</div>
 								  <hr><div class="col-8">Formation pour applications spécifiques</div>
-								  <div class="col-4 text-center">30€/h</div>
+								  <div class="col-4 text-center">30€/heure</div>
 								  <hr><div class="col-8">Formation pour systèmes d'exploitation (iOS - Android - MacOS - Windows - Linux)</div>
-								  <div class="col-4 text-center">15€/h</div>
+								  <div class="col-4 text-center">15€/heure</div>
 								  <hr><div class="col-8">Formation pour développements Web (HTML - CSS)</div>
-								  <div class="col-4 text-center">20€/h</div>
+								  <div class="col-4 text-center">20€/heure</div>
 								  <hr><div class="col-8">Formation d'architecture réseaux</div>
-								  <div class="col-4 text-center">30€/h</div>
+								  <div class="col-4 text-center">30€/heure</div>
 								  <hr><div class="col-8">Autres formations ...</div>
 								  <div class="col-4 text-center">-</div>
 								  <hr><div class="col-12">* Ces tarifs peuvent varier en fonction du niveau de perfectionnement des produits</div>
@@ -39,18 +41,18 @@
 					</div>
 					</div>
 				</div>
-				<div class="col p-5">
-					<div class="card bg-white text-dark text-center"><a class=" btn-outline-info" href="" data-toggle="modal" data-target="#collapsePrestaTwo"><br>
-						<h2>DEVELOPPER</h2><br>
-						<div><img id="imgPresta" src="./images/service/DEVELOPPER.png" alt="Formation informatique"></div>
-							<h3>Création de projet</h3><br><br>
+				<div class="col p-5" >
+					<div class="card bg-white text-dark text-center" tabindex="0"><a class=" btn-outline-info" data-toggle="modal" data-target="#collapsePrestaTwo">
+						<h3 class="py-3">DÉVELOPPER</h3>
+						<div><img class="imgPresta" src="./images/service/DEVELOPPER.png" alt="Image création informatique"></div>
+							<h4 class="pb-4">Création de projet</h4>
 					</a></div>
 					<!--Modal-->
-					<div id="collapsePrestaTwo" class="modal animated zoomIn" role="dialog">
+					<div id="collapsePrestaTwo" class="modal animated zoomIn" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
-								<h4 class="modal-title">Développer - Création de projet</h4>
+								<h5 class="modal-title">Développer - Création de projet</h5>
 								<button type="button" class="close text-light" data-dismiss="modal">&times;</button>
 							</div>
 							<div class="modal-body text-dark">
@@ -73,17 +75,17 @@
 					</div>
 				</div>
 				<div class="col p-5">
-					<div class="card bg-white text-dark text-center"><a class=" btn-outline-info" href="" data-toggle="modal" data-target="#collapsePrestaTree"><br>
-						<h2>DEPANNER</h2><br>
-						<div><img id="imgPresta" src="./images/service/DEPANNER.png" alt="Depannage informatique"></div>
-							<h3>Maintenance informatique</h3><br><br>
+					<div class="card bg-white text-dark text-center" tabindex="0"><a class=" btn-outline-info" data-toggle="modal" data-target="#collapsePrestaTree">
+						<h3 class="py-3">DÉPANNER</h3>
+						<div><img class="imgPresta" src="./images/service/DEPANNER.png" alt="Image dépannage informatique"></div>
+							<h4 class="pb-4">Maintenance informatique</h4>
 					</a></div>
 					<!--Modal-->
-					<div id="collapsePrestaTree" class="modal animated zoomIn" role="dialog">
+					<div id="collapsePrestaTree" class="modal animated zoomIn" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header bg-dark">
-								<h4 class="modal-title">Dépanner - Maintenance informatique</h4>
+								<h5 class="modal-title">Dépanner - Maintenance informatique</h5>
 								<button type="button" class="close text-light" data-dismiss="modal">&times;</button>
 							</div>
 							<div class="modal-body text-dark">
@@ -105,5 +107,5 @@
 					</div>
 					</div>
 				</div>
-			</div><br>
+			</div>
 		</div>
