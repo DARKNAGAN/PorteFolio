@@ -4,7 +4,7 @@
 				<div class="col-6 col-sm-3 p-4">
 				<!--Aperçue du projet-->
 				<img class="imgProjet" src="./images/projet/VDI.jpg" alt="Image réseau VDI" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Réalisation et dépannage d'installations de Réseaux Voix, Données, Images</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Réalisation et dépannage d'installations de Réseaux Voix, Données, Images</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Réalisation et dépannage d'installations de Réseaux Voix, Données, Images" data-toggle="modal" data-target="#collapseProOne"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapseProOne" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
@@ -47,11 +47,12 @@
 				</div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/WEB.png" alt="Image developpement web full stack" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Développement de sites web Full-Stack<br>Vitrines - Blogs - Web-apps</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Développement de sites web Full-Stack<br>Vitrines - Blogs - Web-apps</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Développement de sites web Full-Stack<br>Vitrines - Blogs - Web-apps" data-toggle="modal" data-target="#collapseProTwo"><span class="fa fa-bars"></span></button>
 					<div id="collapseProTwo" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content"><div class="modal-body">
+						<button type="button" class="close" role="button" aria-label="Quitter le détail" data-dismiss="modal">&times;</button>
 							<div class="row">
 									<div class="col-lg-5">
 										<img class="d-block w-100"src="./images/projet/WEB2.png" alt="Image codage web">
@@ -85,7 +86,7 @@
 				</div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/SYTELINE.jpg" alt="Image Infor Syteline" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Développement de modules spécifiques dans un progiciel Infor ERP Syteline et utilisation de l'outil SSRS</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Développement de modules spécifiques dans un progiciel Infor ERP Syteline et utilisation de l'outil SSRS</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Développement de modules spécifiques dans un progiciel Infor ERP Syteline et utilisation de l'outil SSRS" data-toggle="modal" data-target="#collapseProThree"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapseProThree" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
@@ -128,7 +129,7 @@
 				</div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/APPLICATION.jpg" alt="Image appareils multiplateforme" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Développement d'applications client lourd</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Développement d'applications client lourd</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Développement d'applications client lourd"data-toggle="modal" data-target="#collapseProFour"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapseProFour" class="modal fade" role="dialog"  tabindex="-1" aria-hidden="true">
@@ -168,7 +169,7 @@
 			<div class="w-100"></div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/PROJET.png" alt="Image outil de portefeuille projet" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Développement logiciel dans un outil de gestion de portefeuilles de projets</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Développement logiciel dans un outil de gestion de portefeuilles de projets</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Développement logiciel dans un outil de gestion de portefeuilles de projets" data-toggle="modal" data-target="#collapseProFive"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapseProFive" class="modal fade" role="dialog"  tabindex="-1" aria-hidden="true">
@@ -205,12 +206,13 @@
 				</div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/FROID.jpg" alt="Image système climatique" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Installation, maintenance et dépannage de systèmes de climatisation</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Installation, maintenance et dépannage de systèmes de climatisation</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Installation, maintenance et dépannage de systèmes de climatisation" data-toggle="modal" data-target="#collapseProSix"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapseProSix" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content"><div class="modal-body">
+						<button type="button" class="close" role="button" aria-label="Quitter le détail" data-dismiss="modal">&times;</button>
 							<div class="row">
 									<div class="col-lg-5">
 										<img class="d-block w-100"src="./images/projet/FROID2.jpg" alt="Image climatisation">
@@ -223,7 +225,7 @@
 											<span class="badge badge-info">Entretien d'installation</span>
 											</div>
 								<div aria-label="Description du projet">
-								<p>- Etablir un diagnostic pour remédier aux problèmes de fonctionnement dans le cadre d'un dépannage.</p>
+								<p>- Établir un diagnostic pour remédier aux problèmes de fonctionnement dans le cadre d'un dépannage.</p>
 									</div>
 									</div>
 								</div>
@@ -234,12 +236,13 @@
 				</div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/OFFSET.jpg" alt="Image Imprimante offset" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Entretien de lignes d'impression offset, emballage, empaquetage</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Entretien de lignes d'impression offset, emballage, empaquetage</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Entretien de lignes d'impression offset, emballage, empaquetage" data-toggle="modal" data-target="#collapseProSeven"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapseProSeven" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content"><div class="modal-body">
+						<button type="button" class="close" role="button" aria-label="Quitter le détail" data-dismiss="modal">&times;</button>
 							<div class="row">
 									<div class="col-lg-5">
 										<img class="d-block w-100"src="./images/projet/OFFSET2.jpg" alt="Image Machine OFFSET">
@@ -263,12 +266,13 @@
 				</div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/RASPBERRY.jpg" alt="Image Raspberry" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Raspberry</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Raspberry</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Raspberry" data-toggle="modal" data-target="#collapsePersoOne"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapsePersoOne" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
 					<div class="modal-dialog modal-lg" role="document">
 						<div class="modal-content"><div class="modal-body">
+						<button type="button" class="close" role="button" aria-label="Quitter le détail" data-dismiss="modal">&times;</button>
 							<div class="row">
 									<div class="col-lg-5">
 										<img class="d-block w-100"src="./images/projet/RASPBERRY2.jpg" alt="Image Raspberry">
@@ -296,7 +300,7 @@
 			<div class="w-100"></div>
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/ADOBE.jpg" alt="Adobe Créative Cloud 2017" >
-				<div class="media-body"><h4 class="text-center" tabindex="0">Adobe CC 2017: Création graphique</h4>
+				<div class="media-body"><h5 class="text-center" tabindex="0">Adobe CC 2017: Création graphique</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Adobe CC 2017: Création graphique" data-toggle="modal" data-target="#collapsePersoTwo"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapsePersoTwo" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
@@ -329,7 +333,7 @@
 				<div class="col-6 col-sm-3 p-4">
 				<img class="imgProjet" src="./images/projet/PORTFOLIO.png" alt="Image Portfolio" >
 				<div class="media-body">
-				<h4 class="text-center" tabindex="0">Réalisation d'un Portfolio personnel</h4>
+				<h5 class="text-center" tabindex="0">Réalisation d'un Portfolio personnel</h5>
 				<button type="button" class="btn btn-outline-light btn-block" role="button" aria-label="Projet en détail : Réalisation d'un Portfolio personnel" data-toggle="modal" data-target="#collapsePersoThree"><span class="fa fa-bars"></span></button>
 				<!--Modal-->
 					<div id="collapsePersoThree" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">

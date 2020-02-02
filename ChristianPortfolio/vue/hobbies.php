@@ -27,10 +27,11 @@
 						</div>
 						<div class="modal-body text-dark">
 							<div class="container text-center">
-								<h4 class="bg-dark text-light py-3">Séries et films d'animation visionnés</h4>
-									<div id="animelist" class="row py-2"></div>
-								<h4 class="bg-dark text-light py-3">Livre Light novel lu</h4>
-									<div id="mangalist" class="row py-2"></div>
+							<h4 class="bg-dark text-light py-2">Light Novel lu</h4>
+									<div id="mangalist" class="row"></div>
+								<h4 class="bg-dark text-light py-2">Séries et films d'animation visionnés</h4>
+									<div id="animelist" class="row">
+									</div>
 							</div>
 						</div>
 						</div>
@@ -45,17 +46,17 @@
 						</div>
 						<div class="modal-body text-dark">
 							<div class="container text-center">
-								<h4 class="bg-dark text-light py-3">Films visionnés</h4>
-									<div id="filmlist" class="row py-2"></div>
-								<h4 class="bg-dark text-light py-3">Séries visionnés</h4>
-									<div id="serielist" class="row py-2"></div>
+								<h4 class="bg-dark text-light py-2">Films visionnés</h4>
+									<div id="filmlist" class="row"></div>
+								<h4 class="bg-dark text-light py-2">Séries visionnés</h4>
+									<div id="serielist" class="row"></div>
 							</div>
 						</div>
 						</div>
 					</div>
 					</div>
 					<h5><a href="https://steamcommunity.com/id/darknagan/games/?tab=all" target="_blank" rel="noopener">Jeux</a></h5>
-					<h5><a id="login-button" href="/ChristianPortfolio/vue/spotify.php" target="_blank" rel="noopener">Musiques</a> | <a data-toggle="modal" href="#collapseHoobieFour">Vidéos</a></h5>
+					<h5><a id="login-button" href="/Portfolio/vue/spotify.php" target="_blank" rel="noopener">Musiques</a> | <a data-toggle="modal" href="#collapseHoobieFour">Vidéos</a></h5>
 					<div id="collapseHoobieFour" class="modal animated zoomInRight" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
@@ -118,14 +119,49 @@
 						</div>
 					</div>
 					</div>
+					<div class="col">
+				<button class="btn btn-dark btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseEventAvenir" aria-expanded="false" aria-controls="collapseEventAvenir">Evènements à venir</button>
+					<div class="collapse" id="collapseEventAvenir">
+						<div class="card-body bg-dark">
+							<ul class="list-group list-group-flush overflow-auto m-3">
+								<li class="list-group-item"><h5>Epiphanie - Galette des Rois</h5><h6>1er dimanche Janvier</h6></li>
+								<li class="list-group-item"><h5>CES de Las Vegas</h5><h6>Janvier</h6></li>
+								<li class="list-group-item"><h5>Chandeleur - Crêpe</h5><h6>2 Février</h6></li>
+								<li class="list-group-item"><h5>Saint Valentin</h5><h6>14 Février</h6></li>
+								<li class="list-group-item"><h5>Mobile World Congress de Barcelone</h5><h6>Février</h6></li>
+								<li class="list-group-item"><h5>Jeux Olympique d'hiver</h5><h6>Février Pair</h6></li>
+								<li class="list-group-item"><h5>Saint Patrick - Bière</h5><h6>17 Mars</h6></li>
+								<li class="list-group-item"><h5>Pâques</h5><h6>Avril</h6></li>
+								<li class="list-group-item"><h5>Fête des Mères</h5><h6>Mai</h6></li>
+								<li class="list-group-item"><h5>Fête des Pères</h5><h6>Juin</h6></li>
+								<li class="list-group-item"><h5>Electronic Entertainment Expo de Los Angeles</h5><h6>Juin</h6></li>
+								<li class="list-group-item"><h5>Download Festival France</h5><h6>Juin</h6></li>
+								<li class="list-group-item"><h5>Tomorrowland en Belgique</h5><h6>Juillet</h6></li>
+								<li class="list-group-item"><h5>Ultra Europe de Croatie</h5><h6>Juillet</h6></li>
+								<li class="list-group-item"><h5>Jeux Olympique d'été</h5><h6>Juillet/Aout Pair</h6></li>
+								<li class="list-group-item"><h5>Gamescom de Cologne</h5><h6>Aout</h6></li>
+								<li class="list-group-item"><h5>IFA de Berlin</h5><h6>Septembre</h6></li>
+								<li class="list-group-item"><h5>Journées du Patrimoine</h5><h6>Septembre</h6></li>
+								<li class="list-group-item"><h5>French Days</h5><h6>Septembre</h6></li>
+								<li class="list-group-item"><h5>Mondial de l'Automobile de Paris</h5><h6>Octobre</h6></li>
+								<li class="list-group-item"><h5>Halloween</h5><h6>31 Octobre</h6></li>
+								<li class="list-group-item"><h5>Paris Games Week de Paris</h5><h6>Novembre</h6></li>
+								<li class="list-group-item"><h5>Black Friday</h5><h6>29 Novembre</h6></li>
+								<li class="list-group-item"><h5>Noël</h5><h6>25 Décembre</h6></li>
+								<li class="list-group-item"><h5>Réveillon de la Saint-Sylvestre</h5><h6>31 Décembre</h6></li>
+								
+							</ul> 
+						</div>
+					</div>
+					</div>
 			</div>
 			<div class="row" aria-label="Lien social" tabindex="0">
 				<div class="col">
 				<h3>Professionnel</h3>
 					<a href="https://fr.linkedin.com/in/christian-cunatbrule" aria-label="Linkedin" target="_blank" rel="noopener"><i class="linkedin fab fa-linkedin fa-3x"></i></a>
 					<a href="https://github.com/DARKNAGAN" aria-label="Github" target="_blank" rel="noopener"><i class="github fab fa-github fa-3x"></i></a>
-					<a href="mailto:ccunatbrule@gmail.com" aria-label="Adresse mail google" target="_blank" rel="noopener"><i class="google fab fa-google fa-3x"></i></a>
-					<a href="mailto:christiancheval@live.fr" aria-label="Adresse mail microsoft" target="_blank" rel="noopener"><i class="microsoft fab fa-windows fa-3x"></i></a>
+					<a href="mailto:ccunatbrule@gmail.com" aria-label="Adresse mail google"><i class="google fab fa-google fa-3x"></i></a>
+					<a href="mailto:christiancheval@live.fr" aria-label="Adresse mail microsoft"><i class="microsoft fab fa-windows fa-3x"></i></a>
 					
 				</div>
 				<div class="col">

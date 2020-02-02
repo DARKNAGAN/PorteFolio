@@ -39,7 +39,7 @@ storedState = localStorage.getItem(stateKey);
 if (access_token && (state == null || state !== storedState))
 	{
 		alert('Problème pour vous authentifier');
-		document.location.href="http://ccunatbrule.free.fr/ChristianPortfolio/#hoobie"; 
+		document.location.href="http://ccunatbrule.free.fr/Portfolio/#hoobie"; 
 	}
 else 
 {
@@ -67,7 +67,7 @@ else
 	document.getElementById('login-button').addEventListener('click', function() 
 	{
 		var client_id = '4983732e765641c781c8dcfc136d0109'; // Your client id
-		var redirect_uri = 'http://ccunatbrule.free.fr/ChristianPortfolio/vue/spotify.php'; // Your redirect uri
+		var redirect_uri = 'http://ccunatbrule.free.fr/Portfolio/vue/spotify.php'; // Your redirect uri
 		var state = generateRandomString(16);
 		localStorage.setItem(stateKey, state);
 		var scope = 'user-follow-read';

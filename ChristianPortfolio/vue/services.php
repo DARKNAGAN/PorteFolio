@@ -6,9 +6,9 @@
 			<div class="row">
 				<div class="col p-5">
 					<div class="card bg-white text-dark text-center" tabindex="0"><a class=" btn-outline-info" data-toggle="modal" data-target="#collapsePrestaOne">
-						<h3 class="py-3">DÉCOUVRIR</h3>
+						<h4 class="py-3">DÉCOUVRIR</h4>
 						<div><img class="imgPresta" src="./images/service/DECOUVRIR.png" alt="Image de formation"></div>
-							<h4 class="pb-4">Formation d'initiation</h4>
+							<h5 class="pb-4">Formation d'initiation</h5>
 					</a></div>
 				<!--Modal-->
 					<div id="collapsePrestaOne" class="modal animated zoomIn" role="dialog" tabindex="-1" aria-hidden="true">
@@ -43,9 +43,9 @@
 				</div>
 				<div class="col p-5" >
 					<div class="card bg-white text-dark text-center" tabindex="0"><a class=" btn-outline-info" data-toggle="modal" data-target="#collapsePrestaTwo">
-						<h3 class="py-3">DÉVELOPPER</h3>
+						<h4 class="py-3">DÉVELOPPER</h4>
 						<div><img class="imgPresta" src="./images/service/DEVELOPPER.png" alt="Image création informatique"></div>
-							<h4 class="pb-4">Création de projet</h4>
+							<h5 class="pb-4">Création de projet</h5>
 					</a></div>
 					<!--Modal-->
 					<div id="collapsePrestaTwo" class="modal animated zoomIn" role="dialog" tabindex="-1" aria-hidden="true">
@@ -76,9 +76,9 @@
 				</div>
 				<div class="col p-5">
 					<div class="card bg-white text-dark text-center" tabindex="0"><a class=" btn-outline-info" data-toggle="modal" data-target="#collapsePrestaTree">
-						<h3 class="py-3">DÉPANNER</h3>
+						<h4 class="py-3">DÉPANNER</h4>
 						<div><img class="imgPresta" src="./images/service/DEPANNER.png" alt="Image dépannage informatique"></div>
-							<h4 class="pb-4">Maintenance informatique</h4>
+							<h5 class="pb-4">Maintenance informatique</h5>
 					</a></div>
 					<!--Modal-->
 					<div id="collapsePrestaTree" class="modal animated zoomIn" role="dialog" tabindex="-1" aria-hidden="true">

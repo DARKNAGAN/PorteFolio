@@ -14,7 +14,7 @@
 	</head>
 	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 			<div class="container modal-body text-center">
-			<h3 class="bg-dark text-light py-3">Mes artistes préférer</h3>
+			<h3 class="bg-dark text-light py-3">Artistes préférés</h3>
 			<div id="musiquelist" class="row py-2"></div>
 			<!--Non connecter-->
 			<div id="login">
@@ -26,7 +26,7 @@
 						<script id="musiquesElt" type="text/x-handlebars-template">
 						{{#each artists.items}}
 							<div class="col">
-									<img id="imgMedia" class="card-img rounded-circle" src="{{images.0.url}}" alt="Aucun Apperçu">
+									<img id="imgMedia" class="card-img rounded-circle" src="{{images.0.url}}"  style="height:180px; width:180px;"  alt="Aucun Apperçu">
 									<div class="card-body text-center">
 										<p><a class="mo-info-name" title="{{name}}" href="{{external_urls.spotify}}" target="_blank" rel="noopener">{{name}}</a></p>
 									</div>

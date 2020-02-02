@@ -9,11 +9,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./js/ajax.js"></script>
 		<script type="text/javascript" src="./js/script.js"></script>
 		<script type="text/javascript" src="./js/pdf.js"></script>
-		<script type="text/javascript" src="./js/ajax.js"></script>
-		<script type="text/javascript" src="./js/MAL.js"></script>
-		<script type="text/javascript" src="./js/TMDB.js"></script>
-		<script type="text/javascript" src="./js/YouTube.js"></script>
 	</body>
 </html>
