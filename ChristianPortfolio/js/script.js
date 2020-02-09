@@ -157,67 +157,57 @@ if (i==3) {
 					infonoteElt.appendChild(noteElt);	
 		});
 	});
-// Genération des Playlists API lié  à MyAnimList
+// Genération des Playlists API lié  à YouTube
 var playlistsElt = document.getElementById("playlistlist");
-ajaxGet("https://www.googleapis.com/youtube/v3/playlists?part=snippet&fields=items(id,snippet/thumbnails/default/url,snippet/title)&maxResults=15&channelId=UCN8b7ygGwvwDO5dWH0D_8bA&key=AIzaSyAQUW9XssG4BiRdUJdf2hR3mBkxfpSIk_4", function (reponse) 
+ajaxGet("https://www.googleapis.com/youtube/v3/playlists?part=snippet&fields=items(id,snippet/thumbnails/default/url,snippet/title)&maxResults=15&channelId=UCN8b7ygGwvwDO5dWH0D_8bA&key=AIzaSyAqPAG5gb8a0d-L1VJeCBJNapspvFcTDPI", function (reponse) 
 	{
 		// Transforme la réponse en un tableau d'articles
 		var playlists = JSON.parse(reponse);
-		playlists.items.forEach(function (results)
+		var i=0
+		playlists.items.forEach(function (playlist)
 		{
-			// Ajout du titre et du contenu de chaque article
-				var divElt = document.createElement("div");
-				divElt.className = "col";
-				var imageElt = document.createElement("img");
-				imageElt.class = "imgMedia";
-				imageElt.className = "rounded";
-				imageElt.src = results.snippet.thumbnails.default.url;
-				imageElt.alt ="Aucun Aperçu";
-				var contenuElt = document.createElement("div");
-				contenuElt.className = "card-body text-center";
-				var titleElt = document.createElement("p");
-				var lienElt = document.createElement("a");
-				lienElt.href = "https://www.youtube.com/playlist?list="+results.id;
-				lienElt.target = "_blank";
-				lienElt.rel = "noopener";
-				lienElt.textContent = results.snippet.title;
-				//Présentation
-				playlistsElt.appendChild(divElt);
-				divElt.appendChild(imageElt);
-				divElt.appendChild(contenuElt);
-				contenuElt.appendChild(titleElt);
-				titleElt.appendChild(lienElt);
+		// Ajout du titre et du contenu de chaque article
+		var breakElt = document.createElement("div");	breakElt.className = "w-100 d-none d-md-block";
+		var colElt = document.createElement("div");		colElt.className = "col";
+		var cardElt = document.createElement("div");	cardElt.className = "card-body";
+		var lienElt = document.createElement("a");		lienElt.href = "https://www.youtube.com/playlist?list="+playlist.id;	lienElt.target = "_blank";	lienElt.rel = "noopener";
+		var titleElt = document.createElement("p");	titleElt.textContent = playlist.snippet.title;
+		var imageElt = document.createElement("img");	imageElt.class = "imgMedia";	imageElt.className = "rounded-top";	imageElt.src = playlist.snippet.thumbnails.default.url;
+			
+		//Présentation
+		if (i==3) {
+			playlistsElt.appendChild(breakElt);
+			i=1;
+		}	else{i=i+1;}
+		playlistsElt.appendChild(colElt);
+		colElt.appendChild(cardElt);
+			cardElt.appendChild(lienElt);
+				lienElt.appendChild(titleElt);
+				lienElt.appendChild(imageElt);
 		});
 	});
-// Genération des artistes API lié  à MyAnimList
+// Genération des artistes API lié  à YouTube
 var artistesElt = document.getElementById("artistelist");
-ajaxGet("https://www.googleapis.com/youtube/v3/subscriptions?part=snippet&fields=items(snippet/title,snippet/thumbnails/default/url,snippet/resourceId/channelId)&maxResults=50&channelId=UCN8b7ygGwvwDO5dWH0D_8bA&key=AIzaSyAQUW9XssG4BiRdUJdf2hR3mBkxfpSIk_4", function (reponse) 
+ajaxGet("https://www.googleapis.com/youtube/v3/channels?part=snippet&fields=items(id,snippet/title,snippet/thumbnails/default/url)&id=UCK7wTMguyPyPCjhLoOK2rJg%2CUCE8NoMFnai3tTuwdiQJ-78A%2CUCJhe07czqzg4UzpjvQWkmMQ%2CUCv8xpzILpS2IKEd8CUuGd-Q%2CUCAHPhykku172s6dUnSs0fAQ%2CUCafwZLzPO4nZrEA8061AXTg%2CUCyC_4jvPzLiSkJkLIkA7B8g%2CUCv8xpzILpS2IKEd8CUuGd-Qsta%2CUCk20cSRhH_ms_Yk1AZItFqA%2CUCYEIC1WKHEJHR971HIySQMg&key=AIzaSyAqPAG5gb8a0d-L1VJeCBJNapspvFcTDPI", function (reponse) 
 	{
 		// Transforme la réponse en un tableau d'articles
 		var artistes = JSON.parse(reponse);
-		artistes.items.forEach(function (results) 
+		console.log(artistes)
+		artistes.items.forEach(function (artist) 
 		{
-			// Ajout du titre et du contenu de chaque article
-			var divElt = document.createElement("div");
-			divElt.className = "col";
-			var imageElt = document.createElement("img");
-			imageElt.class = "imgMedia";
-			imageElt.className = "rounded-circle";
-			imageElt.src = results.snippet.thumbnails.default.url;
-			imageElt.alt ="Aucun Aperçu";
-			var contenuElt = document.createElement("div");
-			contenuElt.className = "card-body text-center";
-			var titleElt = document.createElement("p");
-			var lienElt = document.createElement("a");
-			lienElt.href = "https://www.youtube.com/channel/"+results.snippet.resourceId.channelId;
-			lienElt.target = "_blank";
-			lienElt.rel = "noopener";
-			lienElt.textContent = results.snippet.title;
-			//Présentation
-			artistesElt.appendChild(divElt);
-			divElt.appendChild(imageElt);
-			divElt.appendChild(contenuElt);
-			contenuElt.appendChild(titleElt);
-			titleElt.appendChild(lienElt);
+		// Ajout du titre et du contenu de chaque article
+		var breakElt = document.createElement("div");	breakElt.className = "w-100 d-none d-md-block";
+		var colElt = document.createElement("div");		colElt.className = "col";
+		var cardElt = document.createElement("div");	cardElt.className = "card-body";
+		var lienElt = document.createElement("a");		lienElt.href = "https://www.youtube.com/channel/"+artist.id;	lienElt.target = "_blank";	lienElt.rel = "noopener";
+		var titleElt = document.createElement("p");	titleElt.textContent = artist.snippet.title;
+		var imageElt = document.createElement("img");	imageElt.class = "imgMedia";	imageElt.className = "rounded-circle border border-secondary";	imageElt.src = artist.snippet.thumbnails.default.url;
+
+		//Présentation
+		artistesElt.appendChild(colElt);
+		colElt.appendChild(cardElt);
+			cardElt.appendChild(lienElt);
+				lienElt.appendChild(imageElt);
+				lienElt.appendChild(titleElt);
 		});
 	});

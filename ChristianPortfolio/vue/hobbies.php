@@ -55,8 +55,7 @@
 						</div>
 					</div>
 					</div>
-					<h5><a href="https://steamcommunity.com/id/darknagan/games/?tab=all" target="_blank" rel="noopener">Jeux</a></h5>
-					<h5><a id="login-button" href="/Portfolio/vue/spotify.php" target="_blank" rel="noopener">Musiques</a> | <a data-toggle="modal" href="#collapseHoobieFour">Vidéos</a></h5>
+					<h5><a data-toggle="modal" href="#collapseHoobieFour">Musiques</a></h5>
 					<div id="collapseHoobieFour" class="modal animated zoomInRight" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
@@ -69,6 +68,29 @@
 									<div id="playlistlist" class="row py-2"></div>
 								<h4 class="bg-dark text-light py-3">Artistes favoris</h4>
 									<div id="artistelist" class="row py-2"></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+					<h5><a data-toggle="modal" href="#collapseHoobieFive">Jeux</a></h5>
+					<div id="collapseHoobieFive" class="modal animated zoomInRight" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+						<div class="modal-header bg-light">
+							<button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body text-dark">
+							<div class="container text-center">
+								<h4 class="bg-dark text-light py-3">Mes Jeux</h4>
+								<div class="row">
+									<div class="col">
+										<a href="https://www.igdb.com/users/darknagan/lists/rated" aria-label="gamepad" target="_blank" rel="noopener"><i class="gamepad fas fa-gamepad fa-10x"></i>IGDB</a><br>
+									</div>
+									<div class="col">
+										<a href="https://steamcommunity.com/id/darknagan" aria-label="Steam" target="_blank" rel="noopener"><i class="steam fab fa-steam fa-10x"></i>STEAM</a>
+									</div>
+								</div>
 							</div>
 						</div>
 						</div>
