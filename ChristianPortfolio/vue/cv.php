@@ -2,7 +2,7 @@
 		<div tabindex="0">
 		<h2 class="text-center py-3">CURRICULUM VITAE</h2>
 			<h2 class="text-center mb-4"> Développeur informatique et administrateur réseaux </h2>
-			<h3 class="text-center mb-3">Recherche contrat d'administrateur ou développeur informatique</h3>
+		<!--	<h3 class="text-center mb-3">Recherche contrat</h3>-->
 			</div>
 						<div class="row justify-content-center">
 							<div class="col-auto">
@@ -135,9 +135,15 @@
 							<div class="container card mb-3" tabindex="0"><!-- Pro Column -->
 								<h5 class="text-dark p-3"><i class="fa fa-suitcase fa-lg mr-3 text-teal"></i>Expériences Professionnelles</h5>
 								<div class="container">
+									<img class="imgCV" src="./images/cv/BULL.png" alt="BULL">
+									<h6><strong>Technicien de maintenance HPC</strong></h6>
+									<small class="text-teal">Bull SAS - Les Clayes-sous-Bois | Sept 2019 - <span class="badge badge-pill teal rounded">Actuel</span></small>
+									<p></p>
+								</div>
+								<div class="container">
 									<img class="imgCV" src="./images/cv/SOGETI.png" alt="SOGETI">
 									<h6><strong>Apprenti Administrateur Réseau</strong></h6>
-									<small class="text-teal">Capgemini - Saint-Cloud | Sept 2018 - <span class="badge badge-pill teal rounded">Actuel</span></small>
+									<small class="text-teal">Capgemini - Saint-Cloud | 2018 - 2019</small>
 									<p>- Administration d'infrastructure réseau.<br>
 									- Paramétrage et installation de commutateur HP.</p>
 								</div>
@@ -170,25 +176,22 @@
 								<h5 class="text-dark p-3"><i class="fa fa-graduation-cap fa-lg mr-3 text-teal"></i>Formations</h5>
 								<div class="container">
 									<img class="imgCV" src="./images/cv/IUTE.png" alt="IUT EVRY">
-									<h6><strong>Licence Professionnelle en informatique (LP ISVD)</strong></h6>
+									<h6><strong>Licence Professionnelle en informatique</strong></h6>
 									<small class="text-teal">Université d'Evry-Val-d'Essonne - Université Paris-Saclay | 2018 - 2019</small>
 									<p>Intégration des Systèmes Voix Données<br>Métiers des réseaux informatiques et télécommunications</p>
-								</div>
-								<div class="container">
-									<img class="imgCV" src="./images/cv/IUTO.png" alt="IUT ORSAY">
-									<h6><strong>Licence Professionnelle en informatique (LP PRISM)</strong></h6>
+									<img class="imgCV" src="./images/cv/IUTO.png" alt="IUT EVRY">
 									<small class="text-teal">Université d'Orsay Paris-Sud - Université Paris-Saclay | 2017 - 2018</small>
 									<p>Programmation Internet et Systèmes Mobiles<br>Conception, développement et test de logiciels</p>
 								</div>
 								<div class="container">
 									<img class="imgCV" src="./images/cv/INSTA.png" alt="CFA INSTA">
-									<h6><strong>Brevet de Technicien Supérieur (BTS SIO SLAM)</strong></h6>
+									<h6><strong>Brevet de Technicien Supérieur</strong></h6>
 									<small class="text-teal">CFA INSTA Paris | 2015 - 2017</small>
 									<p>Services Informatiques aux Organisations<br>Solutions Logicielles et Applications Métiers</p>
 								</div>
 								<div class="container">
 									<img class="imgCV" src="./images/cv/FDME.png" alt="FDME Evry">
-									<h6><strong>Baccalauréat Professionnel (Bac Pro ELEEC)</strong></h6>
+									<h6><strong>Baccalauréat Professionnel</strong></h6>
 									<small class="text-teal">Faculté des Métiers de l'Essonne, Campus d'Évry | 2012 - 2015</small>
 									<p>Électrotechnique, Énergie, Équipements Communicants industriel</p>
 								</div>
