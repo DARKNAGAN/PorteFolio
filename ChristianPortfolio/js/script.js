@@ -192,7 +192,6 @@ ajaxGet("https://www.googleapis.com/youtube/v3/channels?part=snippet&fields=item
 	{
 		// Transforme la réponse en un tableau d'articles
 		var artistes = JSON.parse(reponse);
-		console.log(artistes)
 		artistes.items.forEach(function (artist) 
 		{
 		// Ajout du titre et du contenu de chaque article
@@ -211,3 +210,56 @@ ajaxGet("https://www.googleapis.com/youtube/v3/channels?part=snippet&fields=item
 				lienElt.appendChild(titleElt);
 		});
 	});
+// Genération des Games API lié  à IGDB
+var gamesElt = document.getElementById("gamelist");
+var settings = {
+	"url": "https://api-v3.igdb.com/private/lists/",
+	"method": "GET",
+	"timeout": 0,
+	"headers": {
+	  "user-key": "e04bb979cfd7871e7bc3f2b6724096f4",
+	  "Content-Type": "text/plain"
+	},
+	"data": "fields name,listed_games.name, listed_games.cover.url, listed_games.url ; where id = 41173;",
+  };
+ajaxGet("https://api-v3.igdb.com/private/lists", function (reponse)
+	{		console.log(reponse)
+		// Transforme la réponse en un tableau d'articles
+		var games = JSON.parse(reponse);
+		var i=0
+		console.log(games)
+		games.game.forEach(function (game) 
+		{
+			// Ajout du titre et du contenu de chaque article
+			var breakElt = document.createElement("div");	breakElt.className = "w-100 d-none d-md-block";
+			var colElt = document.createElement("div");		colElt.className = "col";
+			var cardElt = document.createElement("div");	cardElt.className = "card-body";
+			var lienElt = document.createElement("a");		lienElt.href = game.url;	lienElt.target = "_blank";	lienElt.rel = "noopener";
+			var titleElt = document.createElement("p");		titleElt.textContent = game.title;
+			var imageElt = document.createElement("img");	imageElt.className = "img-thumbnail"; imageElt.src = game.image_url;	imageElt.alt ="Aucun Aperçu";
+			//Présentation
+			if (i==4) {
+				gamesElt.appendChild(breakElt);
+				i=1;
+			}	else{i=i+1;}
+			gamesElt.appendChild(colElt);
+			colElt.appendChild(cardElt);
+				cardElt.appendChild(lienElt);
+					lienElt.appendChild(titleElt);
+					lienElt.appendChild(imageElt);
+		});
+	});
+	var settings = {
+		"url": "https://api-v3.igdb.com/private/lists",
+		"method": "GET",
+		"timeout": 0,
+		"headers": {
+		  "user-key": "b3f88f75f188fa6b86c70fcd8f75b223",
+		  "Content-Type": "text/plain"
+		},
+		"data": "fields name,listed_games.name, listed_games.cover.url, listed_games.url ; where id = 41173;",
+	  };
+	  
+	  $.ajax(settings).done(function (response) {
+		console.log(response);
+	  });

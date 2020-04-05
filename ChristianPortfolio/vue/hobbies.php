@@ -90,6 +90,8 @@
 									<div class="col">
 										<a href="https://steamcommunity.com/id/darknagan" aria-label="Steam" target="_blank" rel="noopener"><i class="steam fab fa-steam fa-10x"></i>STEAM</a>
 									</div>
+									<h4 class="bg-dark text-light py-2">Jeux</h4>
+									<div id="gamelist" class="row"></div>
 								</div>
 							</div>
 						</div>
